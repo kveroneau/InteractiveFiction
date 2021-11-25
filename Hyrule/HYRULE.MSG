@@ -1,5 +1,7 @@
 MESSAGE 1
 It's Dangerous to go alone!  Take this!
+
+With that, the old man drops a short sword in front of you.
 END_MESSAGE
 
 MESSAGE 2
@@ -19,4 +21,51 @@ END_MESSAGE
 
 MESSAGE 5
 I have nothing more to say or give you.  You may leave.
+END_MESSAGE
+
+MESSAGE 6
+"Buy something will ya!", Exclaims the merchant.
+
+Unfortunately currency and shops are yet to be implemented here.
+END_MESSAGE
+
+MESSAGE 7
+The river here appears to wide to cross, and the only way to go is back east.
+There does appear to be what looks like a cave entrance on the other side of
+the river.
+END_MESSAGE
+
+MESSAGE 8
+The river here appears to wide to cross, and there appears to be a cave
+in the cliff walls here.  It seems the only way to go is north.
+END_MESSAGE
+
+MESSAGE 9
+It is impossible to cross a river this wide to go that direction, so just
+forget about it!
+END_MESSAGE
+
+MESSAGE 10
+The old woman remains quiet and doesn't say a word.
+END_MESSAGE
+
+MESSAGE 11
+The old woman begins to speak, "Visit the old man at the grave" she says.
+END_MESSAGE
+
+MESSAGE 12
+The old man speaks, "Take this letter and show it to the old woman."
+
+With that, the old man gives you a blue letter.
+END_MESSAGE
+
+MESSAGE 13
+You show the old woman the blue letter, she smiles.
+
+"Here, take this red medicine with you!", she said as she hands you a bottle
+filled with a red liquid.
+END_MESSAGE
+
+MESSAGE 14
+You hop onto the raft and set sail for the distant island...
 END_MESSAGE

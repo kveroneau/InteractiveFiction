@@ -4,7 +4,8 @@ MakeVarRoomNum 2
 END_COMMAND
 
 COMMAND EXIT
-AtLocation 130
+AtLocationGT 129
+AtLocationLT 133
 GoToVariableRoom 2
 DoneWithTurn
 END_COMMAND
@@ -20,7 +21,46 @@ END_COMMAND
 
 COMMAND TALK WITH OLD MAN
 Present 300
+VariableEquals 2 114
+IsNowhere 202
+PrintMessage 12
+GetIt 202
+DoneWithTurn
+END_COMMAND
+
+COMMAND TALK WITH OLD MAN
+Present 300
 PrintMessage 5
+DoneWithTurn
+END_COMMAND
+
+COMMAND TALK WITH MERCHANT
+Present 301
+PrintMessage 6
+DoneWithTurn
+END_COMMAND
+
+COMMAND TALK WITH OLD WOMAN
+Present 302
+VariableEquals 2 40
+Present 202
+IsNowhere 203
+PrintMessage 13
+GetIt 203
+DoneWithTurn
+END_COMMAND
+
+COMMAND TALK WITH OLD WOMAN
+Present 302
+VariableEquals 2 40
+PrintMessage 10
+DoneWithTurn
+END_COMMAND
+
+COMMAND TALK WITH OLD WOMAN
+Present 302
+VariableEquals 2 49
+PrintMessage 11
 DoneWithTurn
 END_COMMAND
 
@@ -87,3 +127,56 @@ PrintMessage 4
 DoneWithTurn
 END_COMMAND
 { End code for climb to Level 5 }
+
+{ Code to handle river area }
+COMMAND WEST
+AtLocation 57
+PrintMessage 7
+TurnFlagON 9
+END_COMMAND
+
+COMMAND SOUTH
+AtLocation 48
+PrintMessage 8
+TurnFlagOFF 9
+END_COMMAND
+
+COMMAND EAST
+AtLocation 49
+FlagOFF 9
+PrintMessage 9
+DoneWithTurn
+END_COMMAND
+
+COMMAND NORTH
+AtLocation 49
+FlagON 9
+PrintMessage 9
+DoneWithTurn
+END_COMMAND
+
+COMMAND ENTER
+AtLocation 49
+FlagON 9
+PrintMessage 9
+DoneWithTurn
+END_COMMAND
+{ End code to handle river area }
+
+{ Code to handle raft usage }
+COMMAND RIDE RAFT
+AtLocation 47
+InRoom 204
+PrintMessage 14
+GoToRoom 46
+DoneWithTurn
+END_COMMAND
+
+COMMAND RIDE RAFT
+AtLocation 125
+InRoom 204
+PrintMessage 14
+GoToRoom 124
+DoneWithTurn
+END_COMMAND
+{ End code to handle raft usage }

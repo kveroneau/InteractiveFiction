@@ -3,6 +3,10 @@ This text adventure is an exact replica of the overworld from the
 original Legend of Zelda game from the orignal Nintendo.
 END_INTRO
 
+VERB
+Dummy_Verb1 RIDE
+END_VERB
+
 STARTING_ROOM 65
 
 NOUN 200
@@ -264,12 +268,28 @@ Outside Potion Shop
 NORTH 39
 EAST 48
 WEST 32
+ENTER 132
 END_ROOM
+
+ROOM_DESCR 40
+You stand in a large clearing with green rocky cliffs towards the south.
+
+There are two shrubs perfectly placed in a row here as well, how odd.  There
+is a large green rocky formation here with what appears to be a cave
+entrance to inside of it.  You can see what appears to be a faint torch light
+from inside.
+END_ROOM_DESCR
 
 ROOM 41
 Outside Level 3
 WEST 33
+ENTER 133
 END_ROOM
+
+ROOM_DESCR 41
+You stand in an area surrounded by green rocky cliffs with a temple at it's
+center.  Towards the west is a wooded area outside of the cliffs.
+END_ROOM_DESCR
 
 ROOM 42
 Spectacle Rock
@@ -309,6 +329,15 @@ EAST 55
 WEST 39
 END_ROOM
 
+ROOM_DESCR 47
+You stand at a vast lake with clear water.  There is a dock here which
+appears to be used to get to the island in the distance at the center of
+the lake.
+
+To the south there is a bridge to cross the river flowing past you.
+There seems to be a small path through some cliffs to the east.
+END_ROOM_DESCR
+
 ROOM 48
 Hylia River Bridge
 NORTH 47
@@ -317,11 +346,26 @@ EAST 56
 WEST 40
 END_ROOM
 
+ROOM_DESCR 48
+You are standing a river flowing really fast southwards from the north, luckily
+there is a safe bridge to cross to the other side here.
+
+Towards the east appears to be some green cliffs surrounding a valley, towards
+the north appears to be a vast lake with an Island at it's center.
+
+There is a big clearing towards the west with more green cliffs surrounding it.
+END_ROOM_DESCR
+
 ROOM 49
 Hylia River
 NORTH 48
 EAST 57
+ENTER 132
 END_ROOM
+
+ROOM_DESCR 49
+You stand at a rather refreshing looking river flowing north and south.
+END_ROOM_DESCR
 
 ROOM 50
 Death Mountain Peak
@@ -365,7 +409,18 @@ Hyrule Field
 SOUTH 57
 EAST 64
 WEST 48
+ENTER 131
 END_ROOM
+
+ROOM_DESCR 56
+You are surrounded by green rocky cliffs to the north and south of you, with
+a small path leading off towards the east, and a clearing towards the west.
+
+There are several large boulders placed here, almost like someone or something
+placed them in a few perfect rows.
+
+Against the green cliff wall is a cave entrance.
+END_ROOM_DESCR
 
 ROOM 57
 Hyrule Field
@@ -373,6 +428,14 @@ NORTH 56
 EAST 65
 WEST 49
 END_ROOM
+
+ROOM_DESCR 57
+There are green rocky cliffs surrounding you with a valley going towards the
+west.  There is a small path into the cliffs going into the east and north.
+
+There are also stands a few large boulders here in what appears to be a very
+Hylian-made formation.  Who would even take the time to perfectly align them?
+END_ROOM_DESCR
 
 ROOM 58
 Death Mountain
@@ -394,6 +457,13 @@ Outside Level 1
 EAST 69
 END_ROOM
 
+ROOM_DESCR 61
+You are on a rocky island on the lake with a bridge going back to the mainland
+to the east.  Here there is a really large tree that appears like it could have
+been alive many years in the past, there is what appears to be an entrance
+where the mouth of such a living tree would have been.  Do you dare to enter?
+END_ROOM_DESCR
+
 ROOM 62
 East Lake Hylia
 EAST 70
@@ -412,6 +482,14 @@ SOUTH 65
 EAST 72
 WEST 56
 END_ROOM
+
+ROOM_DESCR 64
+You stand in a valley with rocky cliffs all around you.  There is a path
+leading toward the south, east, and west.
+
+In the clearing, sits a row of six large boulders in one area, and 3 large
+boulders in another.  Did someone purposely place them so perfectly here?
+END_ROOM_DESCR
 
 ROOM 65
 Hyrule Field
@@ -455,12 +533,28 @@ SOUTH 70
 WEST 61
 END_ROOM
 
+ROOM_DESCR 69
+You stand at a bridge crossing the vast lake to what appears to be an
+Ancient temple on a rocky island towards the west.
+
+Towards the north you can see a vast mountain range spanning the entire
+horizon from east to west with some old woods at it's foot.  A river can
+also be seen running from the mountain just to the northwest of here.
+END_ROOM_DESCR
+
 ROOM 70
 East Lake Hylia
 NORTH 69
 SOUTH 71
 WEST 62
 END_ROOM
+
+ROOM_DESCR 70
+There is a vast lake here spanning as far as you can see towards the northwest,
+To the far west there is a rocky mountain, with appears to be a Temple on it.
+
+North of you is an area with a bridge going to one of the islands on the lake.
+END_ROOM_DESCR
 
 ROOM 71
 Hyrule Field
@@ -470,6 +564,14 @@ EAST 79
 WEST 63
 END_ROOM
 
+ROOM_DESCR 71
+You stand in a vast valley of clearings, trees, and shrubs.  There is a wide
+path towards the east leading to what appears to be a small lake.  To the
+west is another vast clearing with less trees and shrubs as you keep going.
+Towards the north is a wide path which leads to what appears to be a vast
+lake with a bridge in the far distance.
+END_ROOM_DESCR
+
 ROOM 72
 Hyrule Field
 NORTH 71
@@ -478,12 +580,27 @@ EAST 80
 WEST 64
 END_ROOM
 
+ROOM_DESCR 72
+You are standing in the middle of a vast field with trees and shrubs going
+far to the north, and towards the south of where you stand.  Towards the
+west is a valley with green mossy cliffs extending north and south of the
+valley.  In the distant east, there appears to be a small lake of sorts.
+END_ROOM_DESCR
+
 ROOM 73
 Hyrule Field
 NORTH 72
 EAST 81
 WEST 65
 END_ROOM
+
+ROOM_DESCR 73
+You stand in a field with lots of standing trees and shrubs all around you.
+There appears to be some green cliffs to the west with a small path leading
+into them.  Towards the east appears to be a rocky area leading into some
+small paths.  The field continues quite a bit north into the distance, as
+far as your eyes can see.
+END_ROOM_DESCR
 
 ROOM 74
 Famous Death Mountain Arrow
@@ -751,7 +868,29 @@ END_ROOM
 ROOM 114
 Mountaintop Cave
 SOUTH 115
+ENTER 130
 END_ROOM
+
+ROOM_DESCR 114
+You are on a very narrow path in the mountains going north and south, at the
+end of the path towards the north is a cave entrance.
+END_ROOM_DESCR
+
+NOUN 202
+Letter
+Blue
+It's a letter on a bright blue piece of paper.
+SIZE 1
+WEIGHT 1
+READABLE
+POINTS 10
+END_NOUN
+
+TEXT 202
+The letter reads like a prescription for a health potion.
+
+It is signed by the old man.  Is the old man a registered Hylian doctor?
+END_TEXT
 
 ROOM 115
 East Death Mountain Range
@@ -853,6 +992,50 @@ HELP 130
 If you are trying to leave the cave, try EXITing the cave.
 END_HELP
 
+ROOM 131
+Merchant's Cave
+END_ROOM
+
+ROOM_DESCR 131
+You are in a dark cave with two lit torches and a merchant sitting in the
+center.
+
+There appears to be some items here for sale.
+(Shops are currently unimplemented)
+END_ROOM_DESCR
+
+HELP 131
+If you are trying to leave the cave, try EXITing the cave.
+END_HELP
+
+ROOM 132
+Old Woman's Hovel
+END_ROOM
+
+ROOM_DESCR 132
+You are in a dark cave with two lit torches and a old woman sitting in the
+center.
+END_ROOM_DESCR
+
+ROOM 133
+Level 3
+EXIT 41
+END_ROOM
+
+ROOM_DESCR 133
+Due to the room limit of the game engine, dungeons cannot be recreated.
+END_ROOM_DESCR
+
+NOUN 204
+Raft
+Wooden
+There is a large wooden raft sitting here.
+SIZE 20
+WEIGHT 15
+LOCATION 133
+POINTS 20
+END_NOUN
+
 CREATURE 300
 Man
 Old
@@ -868,4 +1051,29 @@ There is a short sword here.
 SIZE 3
 WEIGHT 2
 POINTS 5
+END_NOUN
+
+CREATURE 301
+Merchant
+Happy
+An unusually happy but pushy merchant is staring at you.
+LOCATION 131
+MAN
+END_CREATURE
+
+CREATURE 302
+Woman
+Old
+An old woman is sitting here giving you a rather creepy smile.
+LOCATION 132
+WOMAN
+END_CREATURE
+
+NOUN 203
+Potion
+Red
+A red potion, doesn't look very appetizing.
+SIZE 4
+WEIGHT 2
+DRINKABLE
 END_NOUN
