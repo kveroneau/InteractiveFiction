@@ -1,0 +1,89 @@
+COMMAND ANY
+AtLocationLT 130
+MakeVarRoomNum 2
+END_COMMAND
+
+COMMAND EXIT
+AtLocation 130
+GoToVariableRoom 2
+DoneWithTurn
+END_COMMAND
+
+COMMAND TALK WITH OLD MAN
+Present 300
+VariableEquals 2 65
+IsNowhere 201
+PrintMessage 1
+PutInCurrentRoom 201
+DoneWithTurn
+END_COMMAND
+
+COMMAND TALK WITH OLD MAN
+Present 300
+PrintMessage 5
+DoneWithTurn
+END_COMMAND
+
+{ Begin code for Lost Woods }
+COMMAND NORTH
+AtLocation 16
+PrintMessage 2
+SetVariableTo 1 1
+DoneWithTurn
+END_COMMAND
+
+COMMAND SOUTH
+AtLocation 16
+PrintMessage 2
+VariableEquals 1 2
+AddToVariable 1 1
+DoneWithTurn
+END_COMMAND
+
+COMMAND SOUTH
+AtLocation 16
+SetVariableTo 1 0
+DoneWithTurn
+END_COMMAND
+
+COMMAND WEST
+AtLocation 16
+VariableEquals 1 3
+SetVariableTo 1 0
+PrintMessage 3
+GoToRoom 8
+DoneWithTurn
+END_COMMAND
+
+COMMAND WEST
+AtLocation 16
+PrintMessage 2
+VariableEquals 1 1
+AddToVariable 1 1
+DoneWithTurn
+END_COMMAND
+
+COMMAND WEST
+AtLocation 16
+SetVariableTo 1 0
+DoneWithTurn
+END_COMMAND
+{ End code for Lost Woods concept }
+
+{ Begin code for climb to Level 5 }
+COMMAND NORTH
+AtLocation 91
+VariableEquals 1 3
+SetVariableTo 1 0
+GoToRoom 90
+DoneWithTurn
+END_COMMAND
+
+COMMAND NORTH
+AtLocation 91
+VariableLT 1 3
+AddToVariable 1 1
+PrintMessage 4
+DoneWithTurn
+END_COMMAND
+{ End code for climb to Level 5 }

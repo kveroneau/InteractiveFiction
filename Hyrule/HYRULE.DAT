@@ -1,0 +1,871 @@
+INTRO
+This text adventure is an exact replica of the overworld from the
+original Legend of Zelda game from the orignal Nintendo.
+END_INTRO
+
+STARTING_ROOM 65
+
+NOUN 200
+Shield
+Small
+A small shield Link starts with at the beginning of his adventure.
+SIZE 4
+WEIGHT 5
+LOCATION 1000
+WEARABLE
+END_NOUN
+
+ROOM 2
+West Death Mountain Peak
+EAST 10
+SOUTH 3
+END_ROOM
+
+ROOM 3
+West Death Mountain Peak
+NORTH 2
+EAST 11
+END_ROOM
+
+ROOM 4
+Hyrule Graveyard
+EAST 12
+SOUTH 5
+END_ROOM
+
+ROOM 5
+Hyrule Graveyard
+NORTH 4
+EAST 13
+SOUTH 6
+END_ROOM
+
+ROOM 6
+Hyrule Graveyard
+NORTH 5
+SOUTH 7
+EAST 14
+END_ROOM
+
+ROOM 7
+Hyrule Wasteland
+NORTH 6
+SOUTH 8
+END_ROOM
+
+ROOM 8
+West Hyrule Woods
+NORTH 7
+EAST 16
+END_ROOM
+
+ROOM 9
+Hyrule Wasteland
+EAST 17
+END_ROOM
+
+ROOM 10
+West Death Mountain Peak
+WEST 2
+EAST 18
+SOUTH 11
+END_ROOM
+
+ROOM 11
+West Death Mountain Peak
+NORTH 10
+WEST 3
+END_ROOM
+
+ROOM 12
+Hyrule Graveyard
+WEST 4
+SOUTH 13
+END_ROOM
+
+ROOM 13
+Hyrule Graveyard
+NORTH 12
+SOUTH 14
+EAST 21
+WEST 5
+END_ROOM
+
+ROOM 14
+Hyrule Graveyard
+NORTH 13
+WEST 6
+END_ROOM
+
+ROOM 15
+West Hyrule Woods
+EAST 23
+SOUTH 16
+END_ROOM
+
+ROOM 16
+The Lost Woods
+EAST 24
+END_ROOM
+
+ROOM 17
+Hyrule Wasteland
+NORTH 16
+EAST 25
+WEST 9
+END_ROOM
+
+ROOM 18
+West Death Mountain Peak
+WEST 10
+EAST 26
+SOUTH 19
+END_ROOM
+
+ROOM 19
+West Death Mountain Peak
+NORTH 18
+EAST 26
+END_ROOM
+
+ROOM 20
+Outside Level 6
+SOUTH 21
+END_ROOM
+
+ROOM 21
+West Death Mountain
+NORTH 20
+WEST 13
+EAST 29
+END_ROOM
+
+ROOM 22
+Empty Fairy Spring
+SOUTH 23
+END_ROOM
+
+ROOM 23
+West Hyrule Woods
+NORTH 22
+SOUTH 24
+SOUTHEAST 32
+WEST 15
+EAST 31
+END_ROOM
+
+ROOM 24
+West Hyrule Woods
+NORTH 23
+SOUTH 25
+WEST 16
+END_ROOM
+
+ROOM 25
+West Hyrule Woods
+NORTH 24
+EAST 33
+WEST 17
+END_ROOM
+
+ROOM 26
+West Death Mountain Peak
+WEST 18
+SOUTH 27
+END_ROOM
+
+ROOM 27
+West Death Mountain Peak
+NORTH 26
+WEST 19
+EAST 35
+END_ROOM
+
+ROOM 28
+West Death Mountain
+SOUTH 29
+EAST 36
+END_ROOM
+
+ROOM 29
+West Death Mountain
+NORTH 28
+WEST 21
+END_ROOM
+
+ROOM 30
+Fairy Spring
+SOUTH 31
+END_ROOM
+
+ROOM 31
+West Hyrule Woods
+NORTH 30
+SOUTH 32
+EAST 39
+WEST 23
+END_ROOM
+
+ROOM 32
+West Hyrule Woods
+NORTH 31
+SOUTH 33
+EAST 40
+WEST 24
+END_ROOM
+
+ROOM 33
+West Hyrule Woods
+NORTH 32
+EAST 41
+WEST 25
+END_ROOM
+
+ROOM 34
+West Death Mountain Peak
+EAST 42
+END_ROOM
+
+ROOM 35
+West Death Mountain Peak
+SOUTH 36
+EAST 43
+WEST 27
+END_ROOM
+
+ROOM 36
+West Death Mountain
+NORTH 35
+EAST 44
+WEST 28
+END_ROOM
+
+ROOM 37
+West Lake Hylia
+SOUTH 38
+END_ROOM
+
+ROOM 38
+West Lake Hylia
+NORTH 37
+SOUTH 39
+END_ROOM
+
+ROOM 39
+West Lake Hylia
+NORTH 38
+SOUTH 40
+EAST 47
+WEST 31
+END_ROOM
+
+ROOM 40
+Outside Potion Shop
+NORTH 39
+EAST 48
+WEST 32
+END_ROOM
+
+ROOM 41
+Outside Level 3
+WEST 33
+END_ROOM
+
+ROOM 42
+Spectacle Rock
+WEST 34
+EAST 50
+END_ROOM
+
+ROOM 43
+Death Mountain Peak
+SOUTH 44
+EAST 51
+WEST 35
+END_ROOM
+
+ROOM 44
+Death Mountain
+NORTH 43
+SOUTH 45
+WEST 36
+END_ROOM
+
+ROOM 45
+Death Mountain Base
+NORTH 44
+EAST 53
+END_ROOM
+
+ROOM 46
+Outside Level 4
+SOUTH 47
+END_ROOM
+
+ROOM 47
+Lake Hylia Docks
+SOUTH 48
+EAST 55
+WEST 39
+END_ROOM
+
+ROOM 48
+Hylia River Bridge
+NORTH 47
+SOUTH 49
+EAST 56
+WEST 40
+END_ROOM
+
+ROOM 49
+Hylia River
+NORTH 48
+EAST 57
+END_ROOM
+
+ROOM 50
+Death Mountain Peak
+EAST 58
+WEST 42
+END_ROOM
+
+ROOM 51
+Death Mountain
+EAST 59
+WEST 43
+END_ROOM
+
+ROOM 52
+Death Mountain Base
+SOUTH 53
+EAST 60
+END_ROOM
+
+ROOM 53
+Death Mountain Base
+NORTH 52
+WEST 45
+END_ROOM
+
+ROOM 54
+Lake Hylia
+SOUTH 55
+EAST 62
+END_ROOM
+
+ROOM 55
+Lake Hylia
+NORTH 54
+EAST 63
+WEST 47
+END_ROOM
+
+ROOM 56
+Hyrule Field
+SOUTH 57
+EAST 64
+WEST 48
+END_ROOM
+
+ROOM 57
+Hyrule Field
+NORTH 56
+EAST 65
+WEST 49
+END_ROOM
+
+ROOM 58
+Death Mountain
+SOUTH 59
+EAST 66
+WEST 50
+END_ROOM
+
+ROOM 59
+Zora's River
+NORTH 58
+SOUTH 60
+EAST 67
+WEST 51
+END_ROOM
+
+ROOM 61
+Outside Level 1
+EAST 69
+END_ROOM
+
+ROOM 62
+East Lake Hylia
+EAST 70
+WEST 54
+END_ROOM
+
+ROOM 63
+Hyrule Field
+EAST 71
+WEST 55
+END_ROOM
+
+ROOM 64
+Hyrule Field
+SOUTH 65
+EAST 72
+WEST 56
+END_ROOM
+
+ROOM 65
+Hyrule Field
+NORTH 64
+EAST 73
+WEST 57
+ENTER 130
+END_ROOM
+
+ROOM_DESCR 65
+You are standing in a clearing with some cliffs surrounding you in each
+direction.  There is a path through the rocky terrain through the north, east,
+and west.
+
+There is also what appears to be a cave entrance leading into the rocks.
+END_ROOM_DESCR
+
+ROOM 66
+East Death Mountain Peak
+EAST 74
+WEST 58
+END_ROOM
+
+ROOM 67
+Zora's River
+EAST 75
+WEST 59
+END_ROOM
+
+ROOM 68
+East Lake Hylia
+SOUTH 69
+EAST 76
+WEST 60
+END_ROOM
+
+ROOM 69
+East Lake Hylia Bridge
+NORTH 68
+SOUTH 70
+WEST 61
+END_ROOM
+
+ROOM 70
+East Lake Hylia
+NORTH 69
+SOUTH 71
+WEST 62
+END_ROOM
+
+ROOM 71
+Hyrule Field
+NORTH 70
+SOUTH 72
+EAST 79
+WEST 63
+END_ROOM
+
+ROOM 72
+Hyrule Field
+NORTH 71
+SOUTH 73
+EAST 80
+WEST 64
+END_ROOM
+
+ROOM 73
+Hyrule Field
+NORTH 72
+EAST 81
+WEST 65
+END_ROOM
+
+ROOM 74
+Famous Death Mountain Arrow
+WEST 66
+END_ROOM
+
+ROOM 75
+Zora's River
+EAST 83
+WEST 67
+END_ROOM
+
+ROOM 76
+Hyrule Desert
+EAST 84
+WEST 68
+END_ROOM
+
+ROOM 77
+Fairy Spring
+SOUTH 78
+END_ROOM
+
+ROOM 78
+Hyrule Highlands
+NORTH 77
+SOUTH 79
+EAST 86
+END_ROOM
+
+ROOM 79
+Hyrule Field Springs
+NORTH 78
+SOUTH 80
+EAST 87
+WEST 71
+END_ROOM
+
+ROOM 80
+Hyrule Field Springs
+NORTH 79
+EAST 88
+WEST 72
+END_ROOM
+
+ROOM 81
+South Hyrule Pass
+EAST 89
+WEST 73
+END_ROOM
+
+ROOM 82
+Zora's Spring
+SOUTH 83
+END_ROOM
+
+ROOM 83
+Zora's Waterfall
+NORTH 82
+EAST 91
+WEST 75
+END_ROOM
+
+ROOM 84
+Hyrule Desert
+SOUTH 85
+EAST 92
+WEST 76
+END_ROOM
+
+ROOM 85
+Hyrule Desert
+NORTH 84
+SOUTH 86
+EAST 93
+END_ROOM
+
+ROOM 86
+Hyrule Highlands
+NORTH 85
+EAST 94
+WEST 78
+END_ROOM
+
+ROOM 87
+Hyrule Field Springs
+SOUTH 88
+EAST 95
+WEST 79
+END_ROOM
+
+ROOM 88
+Hyrule Field Springs
+NORTH 87
+EAST 96
+WEST 80
+END_ROOM
+
+ROOM 89
+South Hyrule Pass
+EAST 97
+WEST 81
+END_ROOM
+
+ROOM 90
+Outside Level 5
+SOUTH 91
+END_ROOM
+
+ROOM 91
+East Death Mountain Base
+WEST 83
+END_ROOM
+
+ROOM 92
+Hyrule Desert
+SOUTH 93
+EAST 100
+WEST 84
+END_ROOM
+
+ROOM 93
+Hyrule Desert
+NORTH 92
+SOUTH 94
+WEST 85
+END_ROOM
+
+ROOM 94
+East Hyrule Forest
+NORTH 93
+SOUTH 95
+WEST 86
+END_ROOM
+
+ROOM 95
+East Hyrule Forest
+NORTH 94
+SOUTH 96
+EAST 103
+END_ROOM
+
+ROOM 96
+East Hyrule Forest
+NORTH 95
+SOUTH 97
+WEST 88
+END_ROOM
+
+ROOM 97
+Hyrule Beach
+NORTH 96
+EAST 105
+WEST 89
+END_ROOM
+
+ROOM 98
+East Death Mountain Range
+SOUTH 99
+EAST 106
+END_ROOM
+
+ROOM 99
+East Death Mountain Range
+NORTH 98
+SOUTH 100
+EAST 107
+WEST 91
+END_ROOM
+
+ROOM 100
+East Death Mountain Base
+NORTH 99
+EAST 108
+WEST 92
+END_ROOM
+
+ROOM 101
+Outside Level 2
+SOUTH 102
+END_ROOM
+
+ROOM 102
+Hyrule Highlands
+NORTH 101
+EAST 110
+END_ROOM
+
+ROOM 103
+East Hyrule Forest
+SOUTH 104
+EAST 111
+WEST 95
+END_ROOM
+
+ROOM 104
+East Hyrule Forest
+NORTH 103
+EAST 112
+END_ROOM
+
+ROOM 105
+Hyrule Beach
+EAST 113
+WEST 97
+END_ROOM
+
+ROOM 106
+East Death Mountain Range
+SOUTH 107
+WEST 98
+END_ROOM
+
+ROOM 107
+East Death Mountain Range
+NORTH 106
+SOUTH 108
+EAST 115
+WEST 99
+END_ROOM
+
+ROOM 108
+East Death Mountain Range
+NORTH 107
+SOUTH 109
+EAST 116
+WEST 100
+END_ROOM
+
+ROOM 109
+East Hyrule Forest
+NORTH 108
+SOUTH 110
+END_ROOM
+
+ROOM 110
+East Hyrule Forest
+NORTH 109
+SOUTH 111
+EAST 118
+WEST 102
+END_ROOM
+
+ROOM 111
+East Hyrule Forest
+NORTH 110
+SOUTH 112
+EAST 119
+WEST 103
+END_ROOM
+
+ROOM 112
+East Hyrule Forest
+NORTH 111
+EAST 120
+WEST 104
+END_ROOM
+
+ROOM 113
+Hyrule Beach
+EAST 121
+WEST 105
+END_ROOM
+
+ROOM 114
+Mountaintop Cave
+SOUTH 115
+END_ROOM
+
+ROOM 115
+East Death Mountain Range
+NORTH 114
+EAST 123
+WEST 107
+END_ROOM
+
+ROOM 116
+Hyrule Beach
+SOUTH 117
+WEST 108
+END_ROOM
+
+ROOM 117
+Hyrule Beach
+NORTH 116
+EAST 125
+END_ROOM
+
+ROOM 118
+East Hyrule Forest
+WEST 110
+END_ROOM
+
+ROOM 119
+East Hyrule Range
+WEST 111
+END_ROOM
+
+ROOM 120
+East Hyrule Forest
+EAST 128
+WEST 112
+END_ROOM
+
+ROOM 121
+Hyrule Beach
+EAST 129
+WEST 113
+END_ROOM
+
+ROOM 122
+Hyrule Ancient Temple
+SOUTH 123
+END_ROOM
+
+ROOM 123
+East Death Mountain Range
+WEST 115
+END_ROOM
+
+ROOM 124
+Island Ancient Temple
+SOUTH 125
+END_ROOM
+
+ROOM 125
+Hyrule Beach Docks
+SOUTH 126
+WEST 117
+END_ROOM
+
+ROOM 126
+Hyrule Beach Docks
+NORTH 125
+SOUTH 127
+END_ROOM
+
+ROOM 127
+Hyrule Beach Docks
+NORTH 126
+SOUTH 128
+END_ROOM
+
+ROOM 128
+Hyrule Beach Shop
+NORTH 127
+SOUTH 129
+WEST 120
+END_ROOM
+
+ROOM 129
+Hyrule Beach
+NORTH 128
+WEST 121
+END_ROOM
+
+ROOM 130
+Old Man's Cave
+END_ROOM
+
+ROOM_DESCR 130
+You are in a dark cave with two lit torches and an old man sitting in the
+center.
+END_ROOM_DESCR
+
+HELP 130
+If you are trying to leave the cave, try EXITing the cave.
+END_HELP
+
+CREATURE 300
+Man
+Old
+An old aged man with a long grey beard wearing a red robe.
+LOCATION 130
+MAN
+END_CREATURE
+
+NOUN 201
+Sword
+Short
+There is a short sword here.
+SIZE 3
+WEIGHT 2
+POINTS 5
+END_NOUN

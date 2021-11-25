@@ -1,0 +1,22 @@
+MESSAGE 1
+It's Dangerous to go alone!  Take this!
+END_MESSAGE
+
+MESSAGE 2
+You walk down the dark forested path to come to yet another area which leads
+out into all four compass directions.
+END_MESSAGE
+
+MESSAGE 3
+As you walk through the dark forested path you finally come to a clearing!
+
+You made it out of the lost woods!
+END_MESSAGE
+
+MESSAGE 4
+You ascend up the mountain stairs...
+END_MESSAGE
+
+MESSAGE 5
+I have nothing more to say or give you.  You may leave.
+END_MESSAGE
