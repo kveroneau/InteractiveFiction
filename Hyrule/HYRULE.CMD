@@ -64,6 +64,13 @@ PrintMessage 11
 DoneWithTurn
 END_COMMAND
 
+COMMAND TALK WITH OLD WOMAN
+Present 302
+VariableEquals 2 9
+PrintMessage 15
+DoneWithTurn
+END_COMMAND
+
 { Begin code for Lost Woods }
 COMMAND NORTH
 AtLocation 16

@@ -25,17 +25,36 @@ EAST 10
 SOUTH 3
 END_ROOM
 
+ROOM_DESCR 2
+You stand atop the highest peak in Hyrule on a very narrow pathway in the
+mountains.  You can decent down a narrow path of stairs towards the south,
+or take the narrow pathway towards the east.
+END_ROOM_DESCR
+
 ROOM 3
 West Death Mountain Peak
 NORTH 2
 EAST 11
 END_ROOM
 
+ROOM_DESCR 3
+The mountain peak here is very high up, below you can make out a mass graveyard
+spanning a large field, and just beyond is the beginning of a vast forest of
+dead trees.  From where you stand, there is a set of narrow stairs going
+further north into the mountain peak, and the ground you can walk on extends
+a bit further eastwards.
+END_ROOM_DESCR
+
 ROOM 4
 Hyrule Graveyard
 EAST 12
 SOUTH 5
 END_ROOM
+
+ROOM_DESCR 4
+You stand among many burials, as far as the eye can see towards the south,
+and towards the east.
+END_ROOM_DESCR
 
 ROOM 5
 Hyrule Graveyard
@@ -44,6 +63,11 @@ EAST 13
 SOUTH 6
 END_ROOM
 
+ROOM_DESCR 5
+You stand upon a vast graveyard, with grave stones towards the north, east, and
+south.
+END_ROOM_DESCR
+
 ROOM 6
 Hyrule Graveyard
 NORTH 5
@@ -51,11 +75,26 @@ SOUTH 7
 EAST 14
 END_ROOM
 
+ROOM_DESCR 6
+You stand at the top of a mountain cliff with a set of narrow stairs going
+south down to the mountain base where there is a large forested area.
+
+On the top where you now stand are a bunch of grave stones spanning as far as
+the eye can see towards both the north and east.  These appear to be the
+burial from a great war of years past.
+END_ROOM_DESCR
+
 ROOM 7
 Hyrule Wasteland
 NORTH 6
 SOUTH 8
 END_ROOM
+
+ROOM_DESCR 7
+You stand at the bottom of a mountain cliffside with a set of narrow stairs
+ascending into the mountains above.  Towards the south appears to be a forest
+of what appears to be dead wood trees.
+END_ROOM_DESCR
 
 ROOM 8
 West Hyrule Woods
@@ -63,10 +102,24 @@ NORTH 7
 EAST 16
 END_ROOM
 
+ROOM_DESCR 8
+You stand at the edge of the Hyrule Woods, towards the north is a cliff and
+some stairs which are ascending into the mountains above.  Towards the east
+is a deep wooded area with a path inside.
+END_ROOM_DESCR
+
 ROOM 9
 Hyrule Wasteland
 EAST 17
+ENTER 132
 END_ROOM
+
+ROOM_DESCR 9
+You stand at the end of a canyon with four dead trees.  There is rocky cliffs
+in every direction except for the east where the canyon continues on.
+
+Against the rocky cliffside there is what appears to be a cave entrance.
+END_ROOM_DESCR
 
 ROOM 10
 West Death Mountain Peak

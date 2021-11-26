@@ -69,3 +69,7 @@ END_MESSAGE
 MESSAGE 14
 You hop onto the raft and set sail for the distant island...
 END_MESSAGE
+
+MESSAGE 15
+The old woman speaks, "Go North, West, South, West in the Lost Woods"
+END_MESSAGE
