@@ -131,3 +131,25 @@ blue ring!
 
 You obtained the Blue Ring!
 END_MESSAGE
+
+MESSAGE 26
+The old woman begins to speak, "Go Up, Up, the mountain ahead."
+END_MESSAGE
+
+MESSAGE 27
+Since this game engine does not support a currency, I'll just give you the
+bomb!
+
+You obtained the Bomb!
+END_MESSAGE
+
+MESSAGE 28
+As you try to cross the river to the other side, you realize how unsafe it is
+and that you probably should not try, or it could easily spell your sudden
+death.
+END_MESSAGE
+
+MESSAGE 29
+You place the step ladder across the river and carefully cross the river over
+top of the step ladder.  You made it!
+END_MESSAGE

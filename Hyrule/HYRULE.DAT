@@ -724,11 +724,22 @@ EAST 58
 WEST 42
 END_ROOM
 
+ROOM_DESCR 50
+You stand in a small clearing at the peaks of death mountain.  Towards the west
+there is a narrow path in the cliffs leading to a much larger clearing.  There
+is also another narrow path through the mountains towards the east.
+END_ROOM_DESCR
+
 ROOM 51
 Death Mountain
 EAST 59
 WEST 43
 END_ROOM
+
+ROOM_DESCR 51
+You are in a clearing on the mountain, with a path going to the east to a river
+and the clearing continues on towards the west.
+END_ROOM_DESCR
 
 ROOM 52
 Death Mountain Base
@@ -736,11 +747,25 @@ SOUTH 53
 EAST 60
 END_ROOM
 
+ROOM_DESCR 52
+You stand at the base of death mountain just north of Lake Hylia.  There is a
+path in the rocky cliffs leading south closing to the lake itself.  Another
+path to the east goes to a river crossing.
+END_ROOM_DESCR
+
 ROOM 53
 Death Mountain Base
 NORTH 52
 WEST 45
 END_ROOM
+
+ROOM_DESCR 53
+You are the northern part of Lake Hylia.  To the southwest across the lake is
+an island.  Just across the lake towards the east is another rocky island.
+
+From here there is a path leading through some cliffs towards the north, and
+a path following the mountain base towards west.
+END_ROOM_DESCR
 
 ROOM 54
 Lake Hylia
@@ -748,12 +773,25 @@ SOUTH 55
 EAST 62
 END_ROOM
 
+ROOM_DESCR 54
+You stand at a vast lake towards the north, with what appears to be a rocky
+island to the west of you, and another rocky island over the lake to the
+northeast.  There is a path following the lake both to the south and east.
+END_ROOM_DESCR
+
 ROOM 55
 Lake Hylia
 NORTH 54
 EAST 63
 WEST 47
 END_ROOM
+
+ROOM_DESCR 55
+You stand at the edge of a vast lake, there appears to be a floating island
+across the lake to the northwest of you.  A clearing full of green trees is
+here and continues as far as you can see to the east.  There are two small
+paths hugging the lake going towards the north and west.
+END_ROOM_DESCR
 
 ROOM 56
 Hyrule Field
@@ -795,6 +833,17 @@ EAST 66
 WEST 50
 END_ROOM
 
+ROOM_DESCR 58
+You stand on a narrow path way on the peaks of death mountain, from here you
+can see just how vast the land of Hyrule really is.  Just down below past the
+base is Lake Hylia, and Hyrule Field just past that.  To the southeast is the
+vast great forest, and the great sea just beyond that.  Towards the southwest
+is the dead forest with what looks like a graveyard just north of that.
+
+The narrow pathway continues towards both the east and west, with a narrow
+set of stairs leading south down the mountain.
+END_ROOM_DESCR
+
 ROOM 59
 Zora's River
 NORTH 58
@@ -802,6 +851,29 @@ SOUTH 60
 EAST 67
 WEST 51
 END_ROOM
+
+ROOM_DESCR 59
+You stand at the base of a vast mountain, death mountain.  There is a river
+here separating the paths going east and west with no clear way to cross it.
+
+On one side of the river there is a set of stairs ascending up the mountain to
+it's peak.  The river continues to flow towards the east following a path with
+it.
+END_ROOM_DESCR
+
+ROOM 60
+Zora's River
+NORTH 59
+EAST 68
+WEST 52
+END_ROOM
+
+ROOM_DESCR 60
+You are at the most northern point of Lake Hylia, with a rocky island just
+across the lake to the south.  There is a clear flowing river leading into
+the lake which is flowing from the north.  There is a river separating the
+paths east and west.
+END_ROOM_DESCR
 
 ROOM 61
 Outside Level 1
@@ -821,11 +893,21 @@ EAST 70
 WEST 54
 END_ROOM
 
+ROOM_DESCR 62
+You are just south of the rocky island on the lake, with a path hugging the
+lake going both east and west.
+END_ROOM_DESCR
+
 ROOM 63
 Hyrule Field
 EAST 71
 WEST 55
 END_ROOM
+
+ROOM_DESCR 63
+Yuo are in a clearing stretching east and west with plenty of trees and shrubs
+for as far as the eye can see in these directions.
+END_ROOM_DESCR
 
 ROOM 64
 Hyrule Field
@@ -864,11 +946,22 @@ EAST 74
 WEST 58
 END_ROOM
 
+ROOM_DESCR 66
+You stand in a small clearing at the peaks of death mountain.  Towards the east
+there is a narrow path in the cliffs leading to a much larger clearing.  There
+is also another narrow path through the mountains towards the west.
+END_ROOM_DESCR
+
 ROOM 67
 Zora's River
 EAST 75
 WEST 59
 END_ROOM
+
+ROOM_DESCR 67
+You stand at the base of a vast mountain with a river going towards both the
+east and west, the walkable path also follows the river in both directions.
+END_ROOM_DESCR
 
 ROOM 68
 East Lake Hylia
@@ -876,6 +969,14 @@ SOUTH 69
 EAST 76
 WEST 60
 END_ROOM
+
+ROOM_DESCR 68
+You stand at the most northeastern part of the lake with some dead trees
+around.  The rocky island is towards the southwest across the lake, to
+the south there appears to be a bridge crossing the lake allowing access
+to the rocky island.  To the east appears to be a vast desert, and to the
+west there is a river flowing right into the lake from the mountain upstream.
+END_ROOM_DESCR
 
 ROOM 69
 East Lake Hylia Bridge
@@ -958,11 +1059,24 @@ Famous Death Mountain Arrow
 WEST 66
 END_ROOM
 
+ROOM_DESCR 74
+You stand at a clearing on the mountain at what appears to be several boulders
+formed to appear like an arrow pointing towards the west.  Who took the time
+to move such large boulders into such a particular formation?
+
+The only clear path is a narrow path into a cliffs going west.
+END_ROOM_DESCR
+
 ROOM 75
 Zora's River
 EAST 83
 WEST 67
 END_ROOM
+
+ROOM_DESCR 75
+At the base of the mountain where you stand, there is a clear flowing river
+going both east and west, also the only directions you can really walk.
+END_ROOM_DESCR
 
 ROOM 76
 Hyrule Desert
@@ -970,10 +1084,24 @@ EAST 84
 WEST 68
 END_ROOM
 
+ROOM_DESCR 76
+You stand at the entrance of a vast desert stretching out into the east.  There
+are rocky cliffs surrounding this section of the desert towards the north and
+south.  You see what appears to be a vast lake to the west of here, just
+outside the desert.
+END_ROOM_DESCR
+
 ROOM 77
 Fairy Spring
 SOUTH 78
 END_ROOM
+
+ROOM_DESCR 77
+You are at the most beautiful spring you have ever seen.  There is a fairy
+flying at it's center.
+
+The only path out is towards the south.
+END_ROOM_DESCR
 
 ROOM 78
 Hyrule Highlands
@@ -981,6 +1109,13 @@ NORTH 77
 SOUTH 79
 EAST 86
 END_ROOM
+
+ROOM_DESCR 78
+You are on a dense forest path, with an alcove featuring a single large
+boulder.  There is a path leading north to what is a beautiful spring. To the
+east is a clearing surrounded by green cliffsides.  To the south is a larger
+spring than what you see to the north.
+END_ROOM_DESCR
 
 NOUN 209
 Boulder
@@ -1000,6 +1135,13 @@ EAST 87
 WEST 71
 END_ROOM
 
+ROOM_DESCR 79
+You stand at a large spring which spans out a bit towards both the east and
+the south.  There is a dense forest path leading north of here, and a path
+hugging the spring to the east and to the south.  There is another path to the
+west leading to a large field of trees and shrubs.
+END_ROOM_DESCR
+
 ROOM 80
 Hyrule Field Springs
 NORTH 79
@@ -1007,11 +1149,23 @@ EAST 88
 WEST 72
 END_ROOM
 
+ROOM_DESCR 80
+You stand at a large spring which spans out a bit towards both the east and
+the north.  There is a path hugging the spring to the east and to the north.
+There is another path to the west leading to a large field of trees and shrubs.
+END_ROOM_DESCR
+
 ROOM 81
 South Hyrule Pass
 EAST 89
 WEST 73
 END_ROOM
+
+ROOM_DESCR 81
+You are in a rocky pass with a small clearing with a few boulders at the
+center.  Towards the east is a narrow path into the cliffs, and to the
+west is a field of trees and shrubs.
+END_ROOM_DESCR
 
 NOUN 210
 Boulder
@@ -1026,14 +1180,31 @@ END_NOUN
 ROOM 82
 Zora's Spring
 SOUTH 83
+ENTER 130
 END_ROOM
+
+ROOM_DESCR 82
+You stand at the source of the river on a mountain peak, the spring is full of
+fresh free flowing water.  There is a cave entrance going into the mountain
+just passed the spring as well.  There is a narrow set of stairs leading
+south down the mountain.
+END_ROOM_DESCR
 
 ROOM 83
 Zora's Waterfall
 NORTH 82
 EAST 91
 WEST 75
+ENTER 132
 END_ROOM
+
+ROOM_DESCR 83
+You stand at the base of mountain with a wonderful waterfall flowing from the
+north up the mountain.  There is a set of narrow stairs near the waterfall
+leading up the mountain following the source of the water.  The river
+continues west hugging the mountain base.  There is also a narrow path leading
+to the east of here.
+END_ROOM_DESCR
 
 ROOM 84
 Hyrule Desert
@@ -1042,6 +1213,11 @@ EAST 92
 WEST 76
 END_ROOM
 
+ROOM_DESCR 84
+You stand in a vast desert with a rocky cliff towards the north, the desert
+spans as far as you can see towards the east, west and south of here.
+END_ROOM_DESCR
+
 ROOM 85
 Hyrule Desert
 NORTH 84
@@ -1049,12 +1225,26 @@ SOUTH 86
 EAST 93
 END_ROOM
 
+ROOM_DESCR 85
+You stand in a vast desert with a rocky cliff to the south of you, the desert
+goes on towards the north and to the east.  There is a path towards the south
+leading out of the desert to a clearing with green mossy cliffs.
+END_ROOM_DESCR
+
 ROOM 86
 Hyrule Highlands
 NORTH 85
 EAST 94
 WEST 78
+ENTER 131
 END_ROOM
+
+ROOM_DESCR 86
+You stand in a large clearing with four trees surrounded by green mossy cliffs.
+There is a path leading north to what appears to be a desert.  To the west is
+a dense set of trees, and towards the east is a path to another clearing full
+of trees and shrubs.  There is also a cave going into the green cliffside here.
+END_ROOM_DESCR
 
 ROOM 87
 Hyrule Field Springs
@@ -1063,6 +1253,13 @@ EAST 95
 WEST 79
 END_ROOM
 
+ROOM_DESCR 87
+You stand at the northeastern edge of a large spring, with paths going out in
+every direction.  There's a path hugging the spring to the west, and the spring
+continues to the south.  There is a clearing with lots of trees and shrubs to
+the east of here.
+END_ROOM_DESCR
+
 ROOM 88
 Hyrule Field Springs
 NORTH 87
@@ -1070,21 +1267,46 @@ EAST 96
 WEST 80
 END_ROOM
 
+ROOM_DESCR 88
+You stand at the southeastern edge of a large spring with paths going out to
+the north, east, and west.  With the path west hugging the spring, and to the
+east is a clearing with lots of trees and shrubs.
+END_ROOM_DESCR
+
 ROOM 89
 South Hyrule Pass
 EAST 97
 WEST 81
 END_ROOM
 
+ROOM_DESCR 89
+You are in a rocky cliff with a clearing which you are now standing in.  There
+is a narrow pathway into the cliffs going both east and west of here.  Towards
+the east you hear what sounds like waves crashing against a shoreline.
+END_ROOM_DESCR
+
 ROOM 90
 Outside Level 5
 SOUTH 91
 END_ROOM
 
+ROOM_DESCR 90
+You stand outside a large temple in the share of a creature of sorts, with it's
+mouth being the entrance into it's depths.  There are rocky cliffs surrounding
+the area, with a narrow set of stairs leading back down the mountain.
+END_ROOM_DESCR
+
 ROOM 91
 East Death Mountain Base
 WEST 83
 END_ROOM
+
+ROOM_DESCR 91
+You are at a clearing near the base of the mountain, with stairs going north up
+the mountain for as far as your eyes can see.  There is a narrow pathway
+leading out towards the west.  A narrow path east looks almost unpassable from
+this side.
+END_ROOM_DESCR
 
 ROOM 92
 Hyrule Desert
@@ -1093,26 +1315,51 @@ EAST 100
 WEST 84
 END_ROOM
 
+ROOM_DESCR 92
+You stand at the edge of a vast desert with a clearing to a large rock
+formation to the east, and what appears to be a vast body of water just
+beyond that.  The desert stretches both to the west and south of here,
+with rocky cliffs surrounding it all.
+END_ROOM_DESCR
+
 ROOM 93
 Hyrule Desert
 NORTH 92
-SOUTH 94
+SOUTH 134
 WEST 85
 END_ROOM
 
+ROOM_DESCR 93
+You are at the far southeastern part of the vast desert, with continues to
+span both north and west of your location.  There is a narrow path leading
+south outside of the desert to what appears like the entrance to a vast
+green forest.
+END_ROOM_DESCR
+
 ROOM 94
 East Hyrule Forest
-NORTH 93
 SOUTH 95
 WEST 86
 END_ROOM
 
+ROOM_DESCR 94
+You are in a clearing in the forest which continues to the south, towards the
+west is a path into a clearing surrounded by green mossy cliffs.
+END_ROOM_DESCR
+
 ROOM 95
 East Hyrule Forest
 NORTH 94
+NORTHEAST 134
 SOUTH 96
 EAST 103
 END_ROOM
+
+ROOM_DESCR 95
+You stand in a forest clearing with paths going into each direction, there
+appears to be a large spring to the west, a dense forest to the east, and
+a narrow forest path to the northeast.
+END_ROOM_DESCR
 
 ROOM 96
 East Hyrule Forest
@@ -1121,6 +1368,11 @@ SOUTH 97
 WEST 88
 END_ROOM
 
+ROOM_DESCR 96
+You are in a forest clearing with a large spring towards the west, and you
+hear what sounds like waves crashing against a shoreline to the south.
+END_ROOM_DESCR
+
 ROOM 97
 Hyrule Beach
 NORTH 96
@@ -1128,11 +1380,23 @@ EAST 105
 WEST 89
 END_ROOM
 
+ROOM_DESCR 97
+You stand at a beach next to what appears to be a vast sea, the beach is
+surrounded by rocky cliffs, with a path leading to the mainland north of
+here, and a narrow path leading into the cliffs westward.  The beach
+continues as far as the eye can see towards the east.
+END_ROOM_DESCR
+
 ROOM 98
 East Death Mountain Range
 SOUTH 99
 EAST 106
 END_ROOM
+
+ROOM_DESCR 98
+You are at a clearing on the top of the mountain range which is spanning east,
+There is also a narrow set of stairs here leading south down the mountain.
+END_ROOM_DESCR
 
 ROOM 99
 East Death Mountain Range
@@ -1142,6 +1406,14 @@ EAST 107
 WEST 91
 END_ROOM
 
+ROOM_DESCR 99
+You stand in a mountain clearing with several idle Armos statues lining the
+center of the clearing.  There appears to a narrow barely unpassable path
+towards the west into the cliffs.  From the clearing, there are two sets
+of narrow stairs, one set of stairs going north into the mountain, and
+another going south down the mountain.
+END_ROOM_DESCR
+
 ROOM 100
 East Death Mountain Base
 NORTH 99
@@ -1149,16 +1421,36 @@ EAST 108
 WEST 92
 END_ROOM
 
+ROOM_DESCR 100
+You are standing at the base of a vast mountain to the north of you, there is
+a large rock formation sitting here in the clearing.  To the west appears to be
+what looks like a vast desert stretching really far out west.  There is a path
+to the east where you can see a vast body of water.  There is also a set of
+narrow stairs here leading north up into a clearing in the mountain.
+END_ROOM_DESCR
+
 ROOM 101
 Outside Level 2
 SOUTH 102
 END_ROOM
+
+ROOM_DESCR 101
+You stand just outside what appears to be a large temple in the shape of a
+monster's mouth, with the mouth being the entrance.  It is surrounded by
+green mossy cliffs all around.  There is a narrow set of stairs leading south.
+END_ROOM_DESCR
 
 ROOM 102
 Hyrule Highlands
 NORTH 101
 EAST 110
 END_ROOM
+
+ROOM_DESCR 102
+You stand in a clearing surrounded by mossy green cliffs, there is a narrow
+pathway leading to the east into a forest, and a set of narrow stairs leading
+north to what looks like a massive temple at the top.
+END_ROOM_DESCR
 
 ROOM 103
 East Hyrule Forest
@@ -1167,11 +1459,21 @@ EAST 111
 WEST 95
 END_ROOM
 
+ROOM_DESCR 103
+You stand on a narrow path in a very dense green forest, there are paths
+leading to the south, east, and west from here.
+END_ROOM_DESCR
+
 ROOM 104
 East Hyrule Forest
 NORTH 103
 EAST 112
 END_ROOM
+
+ROOM_DESCR 104
+You are in a clearing within the dense green and lush forest which surrounds
+you.  There is a narrow path leading north and east back into the forest.
+END_ROOM_DESCR
 
 ROOM 105
 Hyrule Beach
@@ -1179,19 +1481,35 @@ EAST 113
 WEST 97
 END_ROOM
 
+ROOM_DESCR 105
+You stand on a long beach spanning as far as you can see towards the east, with
+some rocky cliffs to the west.
+END_ROOM_DESCR
+
 ROOM 106
 East Death Mountain Range
-SOUTH 107
+SOUTH 135
 WEST 98
 END_ROOM
 
+ROOM_DESCR 106
+You stand near the top of the mountain in a large clearing spanning further
+west.  There is also a set of stairs here leading south back to the base of
+the mountain.
+END_ROOM_DESCR
+
 ROOM 107
 East Death Mountain Range
-NORTH 106
 SOUTH 108
-EAST 115
+DOWN 108
 WEST 99
 END_ROOM
+
+ROOM_DESCR 107
+You stand at a cliff side looking down towards the great sea below to the east.
+There is a clearing with some Armos statues to the west, and a set of narrow
+stairs going south off the cliff.
+END_ROOM_DESCR
 
 NOUN 211
 Boulder
@@ -1205,17 +1523,33 @@ END_NOUN
 
 ROOM 108
 East Death Mountain Range
-NORTH 107
+NORTH 135
+UP 107
 SOUTH 109
 EAST 116
 WEST 100
 END_ROOM
+
+ROOM_DESCR 108
+You stand at the edge of the great sea, towards the north of here is a vast
+mountain range, which spans as far as you can see eastwards.  Towards the
+west is a clearing with a rather large rock formation at the center.  There is
+also a narrow path going south into a forest clearing, and a path going east
+and north following the beach of the great.  There is also a set of stairs here
+leading up into a nearby cliff.
+END_ROOM_DESCR
 
 ROOM 109
 East Hyrule Forest
 NORTH 108
 SOUTH 110
 END_ROOM
+
+ROOM_DESCR 109
+You stand in a large clearing in the forest with trees and shrubs everywhere
+spanning more towards the south of you.  To the north there is a narrow path
+where you can hear the crashing of waves emanating from.
+END_ROOM_DESCR
 
 ROOM 110
 East Hyrule Forest
@@ -1225,6 +1559,13 @@ EAST 118
 WEST 102
 END_ROOM
 
+ROOM_DESCR 110
+You stand in a large forest clearing spanning further north of here.  To the
+west is a narrow pathway leading into some green mossy cliffs.  There is also
+another path leading to another clearing towards the east, and a very narrow
+path leading south into the dense forest.
+END_ROOM_DESCR
+
 ROOM 111
 East Hyrule Forest
 NORTH 110
@@ -1233,6 +1574,13 @@ EAST 119
 WEST 103
 END_ROOM
 
+ROOM_DESCR 111
+This part of the forest is full of dense and narrow pathways leading in each
+direction.  To the north appears to be a large clearing in the forest however.
+The narrow path leading to the east leads to a green mossy rocky clearing with
+a cave.  The narrow paths south and west go deeper into the dense forest.
+END_ROOM_DESCR
+
 ROOM 112
 East Hyrule Forest
 NORTH 111
@@ -1240,11 +1588,23 @@ EAST 120
 WEST 104
 END_ROOM
 
+ROOM_DESCR 112
+The forest just seems to get denser the more you walk around it.  There are a
+of narrow pathways here leading to the north and west.  There seems to be a
+clearing towards the east, where you can make out what looks like a vast sea
+just beyond the clearing.
+END_ROOM_DESCR
+
 ROOM 113
 Hyrule Beach
 EAST 121
 WEST 105
 END_ROOM
+
+ROOM_DESCR 113
+You stand on a long beach spanning as far as you can see towards the east, with
+some rocky cliffs to the west.
+END_ROOM_DESCR
 
 ROOM 114
 Mountaintop Cave
@@ -1280,11 +1640,25 @@ EAST 123
 WEST 107
 END_ROOM
 
+ROOM_DESCR 115
+You stand at what appears to be the end of the beach before there is a
+large clearing surrounded by rocky cliffs toward the east.  There is a set of
+stairs here leading up into the mountain, they look extremely narrow when
+compared to any other set of stairs you have come across.  The beach continues
+towards the west of here.
+END_ROOM_DESCR
+
 ROOM 116
 Hyrule Beach
 SOUTH 117
 WEST 108
 END_ROOM
+
+ROOM_DESCR 116
+You are at a large section of the beach with not really much to see, besides
+the great sea towards the north and east, making the one way to travel south
+and west.
+END_ROOM_DESCR
 
 ROOM 117
 Hyrule Beach
@@ -1292,15 +1666,31 @@ NORTH 116
 EAST 125
 END_ROOM
 
+ROOM_DESCR 117
+You are at a large section of the beach with not really much to see, besides
+the rocky cliffs towards the west and south, making the one way to travel north
+and east.
+END_ROOM_DESCR
+
 ROOM 118
 East Hyrule Forest
 WEST 110
 END_ROOM
 
+ROOM_DESCR 118
+You stand in a large forest clearing with two Armos statues at the center. The
+only path out is towards the west.
+END_ROOM_DESCR
+
 ROOM 119
 East Hyrule Range
 WEST 111
 END_ROOM
+
+ROOM_DESCR 119
+You stand in a large clearing surrounded by green mossy cliffs on all sides
+with a narrow path leading back into the forest towards the west.
+END_ROOM_DESCR
 
 ROOM 120
 East Hyrule Forest
@@ -1308,26 +1698,58 @@ EAST 128
 WEST 112
 END_ROOM
 
+ROOM_DESCR 120
+You stand in a large forest clearing, with several shrubs at it's center. To
+the east you see a vast sea, towards the west is a narrow path into a dense
+forest.
+END_ROOM_DESCR
+
 ROOM 121
 Hyrule Beach
 EAST 129
 WEST 113
 END_ROOM
 
+ROOM_DESCR 121
+You are at a part of the long beach where the northern cliffs make the path you
+are walking on much more narrow than they were at other parts of the beach.
+
+The only directions you can really go along the beach are each and west.
+END_ROOM_DESCR
+
 ROOM 122
 Hyrule Ancient Temple
 SOUTH 123
 END_ROOM
+
+ROOM_DESCR 122
+You stand outside of a large temple in the shape of an Ancient beast, with the
+mouth clearly being the entrance to the temple.  There is a set of stairs
+leading back south.
+END_ROOM_DESCR
 
 ROOM 123
 East Death Mountain Range
 WEST 115
 END_ROOM
 
+ROOM_DESCR 123
+You are in a clearing surrounded by rocky cliffs all around, at the center is
+a few large dead trees.  The only clear path is back towards the west.
+END_ROOM_DESCR
+
 ROOM 124
 Island Ancient Temple
 SOUTH 125
 END_ROOM
+
+ROOM_DESCR 124
+You stand upon the island on the great sea in front of a massive temple in the
+shape of an Ancient creature you wish to never meet.  The mouth of the creature
+acts as the entrance into the temple depths.
+
+Towards the south is the dock back to the mainland.
+END_ROOM_DESCR
 
 ROOM 125
 Hyrule Beach Docks
@@ -1335,11 +1757,24 @@ SOUTH 126
 WEST 117
 END_ROOM
 
+ROOM_DESCR 125
+You stand at the edge of the beach and a vast sea as far as the eye can see.
+There is a dock here which seems like it could be used to launch a raft off of,
+but where would you sail to?  The beach continues towards the south and the
+west of here.
+END_ROOM_DESCR
+
 ROOM 126
 Hyrule Beach Docks
 NORTH 125
 SOUTH 127
 END_ROOM
+
+ROOM_DESCR 126
+You are on the easternmost part of the beach lining the great sea.  There is
+what appears to be a fairly under maintained dock here which has been in decay
+over the past many years.  The beach continues north and south of here.
+END_ROOM_DESCR
 
 ROOM 127
 Hyrule Beach Docks
@@ -1347,18 +1782,37 @@ NORTH 126
 SOUTH 128
 END_ROOM
 
+ROOM_DESCR 127
+You are on the easternmost part of the beach lining the great sea.  There is
+what appears to be a fairly under maintained dock here which has been in decay
+over the past many years.  The beach continues north and south of here.
+END_ROOM_DESCR
+
 ROOM 128
 Hyrule Beach Shop
 NORTH 127
 SOUTH 129
 WEST 120
+ENTER 131
 END_ROOM
+
+ROOM_DESCR 128
+You stand on the beach of a great sea with a forest clearing to the west, and a
+cave going into the cliffside here.  The beach continues north and south of
+here.
+END_ROOM_DESCR
 
 ROOM 129
 Hyrule Beach
 NORTH 128
 WEST 121
 END_ROOM
+
+ROOM_DESCR 129
+You are at the further point in southeastern Hyrule, with the beach extending
+towards both the west and north.  The great sea towards the southeast looks
+absolutely vast.
+END_ROOM_DESCR
 
 ROOM 130
 Old Man's Cave
@@ -1417,6 +1871,31 @@ HELP 133
 I know in the original they were staircases, but it is more natural for a text
 adventure to use compass directions.  So choose your path!
 END_HELP
+
+ROOM 134
+Narrow forest path
+NORTH 93
+SOUTH 95
+END_ROOM
+
+ROOM_DESCR 134
+You are on a narrow forest path going north and south, towards the north is
+what appears to be the entrance to a vast desert, and to the south a clearing
+in a forest.
+END_ROOM_DESCR
+
+ROOM 135
+East Death Mountain Base
+NORTH 106
+SOUTH 108
+EAST 115
+END_ROOM
+
+ROOM_DESCR 135
+You stand at the base of the mountain next to part of the great sea.  There is
+a narrow pathway hugging the mountain towards both the east and the south.
+There is also a narrow set of stairs here ascending up into the mountain.
+END_ROOM_DESCR
 
 ROOM 143
 Level 3
@@ -1504,6 +1983,7 @@ White
 The fabled White Sword of Legend
 SIZE 3
 WEIGHT 4
+POINTS 20
 END_NOUN
 
 NOUN 207
@@ -1512,6 +1992,7 @@ Magical
 The Magical Sword
 SIZE 4
 WEIGHT 3
+POINTS 20
 END_NOUN
 
 NOUN 213
@@ -1521,6 +2002,7 @@ A Bracelet allowing the wearer to push huge stones.
 SIZE 1
 WEIGHT 1
 WEARABLE
+POINTS 10
 END_NOUN
 
 NOUN 215
@@ -1530,4 +2012,13 @@ The Blue Ring who's magic adds to the wearers defense.
 SIZE 1
 WEIGHT 1
 WEARABLE
+POINTS 15
+END_NOUN
+
+NOUN 217
+Bomb
+Large
+A large bomb.
+SIZE 5
+WEIGHT 4
 END_NOUN

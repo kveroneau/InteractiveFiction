@@ -67,6 +67,15 @@ END_COMMAND
 
 COMMAND TALK WITH MERCHANT
 Present 301
+VariableEquals 2 86
+IsNowhere 217
+PrintMessage 27
+GetIt 217
+DoneWithTurn
+END_COMMAND
+
+COMMAND TALK WITH MERCHANT
+Present 301
 PrintMessage 6
 DoneWithTurn
 END_COMMAND
@@ -99,6 +108,13 @@ COMMAND TALK WITH OLD WOMAN
 Present 302
 VariableEquals 2 9
 PrintMessage 15
+DoneWithTurn
+END_COMMAND
+
+COMMAND TALK WITH OLD WOMAN
+Present 302
+VariableEquals 2 83
+PrintMessage 26
 DoneWithTurn
 END_COMMAND
 
@@ -198,6 +214,88 @@ AtLocation 49
 FlagON 9
 PrintMessage 9
 DoneWithTurn
+END_COMMAND
+
+COMMAND WEST
+AtLocation 68
+ OR
+AtLocation 67
+TurnFlagON 9
+END_COMMAND
+
+COMMAND EAST
+AtLocation 51
+ OR
+AtLocation 52
+ OR
+TurnFlagOFF 9
+END_COMMAND
+
+COMMAND SOUTH
+AtLocation 58
+TurnFlagOFF 9
+END_COMMAND
+
+COMMAND WEST
+AtLocation 59
+FlagON 9
+NOT Present 216
+PrintMessage 28
+DoneWithTurn
+END_COMMAND
+
+COMMAND WEST
+AtLocation 60
+FlagON 9
+NOT Present 216
+PrintMessage 28
+DoneWithTurn
+END_COMMAND
+
+COMMAND NORTH
+AtLocation 59
+FlagON 9
+NOT Present 216
+PrintMessage 28
+DoneWithTurn
+END_COMMAND
+
+COMMAND EAST
+AtLocation 59
+FlagOFF 9
+NOT Present 216
+PrintMessage 28
+DoneWithTurn
+END_COMMAND
+
+COMMAND EAST
+AtLocation 60
+FlagOFF 9
+NOT Present 216
+PrintMessage 28
+DoneWithTurn
+END_COMMAND
+
+COMMAND NORTH
+AtLocation 59
+FlagON 9
+PrintMessage 29
+END_COMMAND
+
+COMMAND EAST
+AtLocation 59
+ OR
+AtLocation 60
+FlagON 9
+PrintMessage 29
+END_COMMAND
+
+COMMAND WEST
+AtLocation 59
+ OR
+AtLocation 60
+FlagOFF 9
+PrintMessage 29
 END_COMMAND
 { End code to handle river area }
 
