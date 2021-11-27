@@ -475,12 +475,28 @@ West Death Mountain Peak
 EAST 42
 END_ROOM
 
+ROOM_DESCR 34
+You stand at the end of the landing on one of the highest peaks on death
+mountain.  Below you can see almost all of Hyrule, with it's vast forests,
+large Lake Hylia, and the many plains.
+
+The only direction you can really go is east from here.
+END_ROOM_DESCR
+
 ROOM 35
 West Death Mountain Peak
 SOUTH 36
 EAST 43
 WEST 27
 END_ROOM
+
+ROOM_DESCR 35
+You stand on a landing in the mountains with a few rows of Ancient Armos.
+
+The landing continues towards both the east and the west of where you stand.
+
+There is also a narrow set of stairs going south down the mountain.
+END_ROOM_DESCR
 
 ROOM 36
 West Death Mountain
@@ -489,9 +505,18 @@ EAST 44
 WEST 28
 END_ROOM
 
+ROOM_DESCR 36
+You stand on a landing in the mountains with a few rows of Ancient Armos.
+
+The landing continues towards both the east and the west of where you stand.
+
+There is also a narrow set of stairs going north up the mountain.
+END_ROOM_DESCR
+
 NOUN 212
 Armos
 Secret
+A very large Armos knight statue is sitting here.
 SIZE 40
 WEIGHT 60
 UNMOVABLE
@@ -503,11 +528,35 @@ West Lake Hylia
 SOUTH 38
 END_ROOM
 
+ROOM_DESCR 37
+You stand at the most northwestern part of the lake, from here you can see the
+island lake towards the southeast.  South is a narrow path.
+
+There is also a set of Armos knights here.
+END_ROOM_DESCR
+
+NOUN 214
+Armos
+Secret
+A very large Armos knight statue is sitting here.
+SIZE 40
+WEIGHT 60
+UNMOVABLE
+LOCATION 37
+END_NOUN
+
 ROOM 38
 West Lake Hylia
 NORTH 37
 SOUTH 39
+ENTER 131
 END_ROOM
+
+ROOM_DESCR 38
+You are on the far west side of Lake Hylia near a cliffy alcove with a cave in
+it's wall.  There is a narrow path leading further north up the path next to
+the lake.  There is also a wider path going towards the south of here.
+END_ROOM_DESCR
 
 ROOM 39
 West Lake Hylia
@@ -516,6 +565,17 @@ SOUTH 40
 EAST 47
 WEST 31
 END_ROOM
+
+ROOM_DESCR 39
+You are the southwestern part of the lake, northeast you can clearly see the
+island, with what appears to be a temple at it's center.
+
+There is a path leading further north from here, as well as a path leading west
+into what appears to be a dying forest full of brown dead trees.  To the east
+there is a river and a dock which appears like it could be used to set sail to
+the island at the center.  Just to the south is a clearing of sorts with a
+green cliff just past it.
+END_ROOM_DESCR
 
 ROOM 40
 Outside Potion Shop
@@ -551,12 +611,26 @@ WEST 34
 EAST 50
 END_ROOM
 
+ROOM_DESCR 42
+You stand at the top of the land of Hyrule, looking down you can see just how
+vast the land is below.  You can clearly see Lake Hylia just past the base
+of the mountain, and towards the east the great forest and beyond that the
+great sea.  At the top of the mountain where you stand is two very large
+rock formations, the locals call these rocks, "Spectacle Rock".
+END_ROOM_DESCR
+
 ROOM 43
 Death Mountain Peak
 SOUTH 44
 EAST 51
 WEST 35
 END_ROOM
+
+ROOM_DESCR 43
+You stand at a landing in the mountains, which spans both east and west a
+fair distance from where you are.  There is also a set of stairs descending
+down into the mountain.
+END_ROOM_DESCR
 
 ROOM 44
 Death Mountain
@@ -565,16 +639,39 @@ SOUTH 45
 WEST 36
 END_ROOM
 
+ROOM_DESCR 44
+You stand in a clearing in the mountains with a lot of Ancient Armos statues
+stretching to the west.  There is also a set of stairs going north into the
+mountain, and a narrow set of stairs going south to the base of the mountain
+towards the lake below.
+END_ROOM_DESCR
+
 ROOM 45
 Death Mountain Base
 NORTH 44
 EAST 53
 END_ROOM
 
+ROOM_DESCR 45
+You are just north of Lake Hylia at the base of death mountain, the island is
+just to the south of you across the lake.  There is a set of narrow stairs here
+ascending up the mountain from the base.  There is also a path along the
+mountain base towards the east.
+END_ROOM_DESCR
+
 ROOM 46
 Outside Level 4
 SOUTH 47
+ENTER 144
 END_ROOM
+
+ROOM_DESCR 46
+You stand upon the island on Lake Hylia in front of a massive temple in the
+shape of an Ancient creature you wish to never meet.  The mouth of the creature
+acts as the entrance into the temple depths.
+
+Towards the south is the dock back to the mainland.
+END_ROOM_DESCR
 
 ROOM 47
 Lake Hylia Docks
@@ -1340,6 +1437,25 @@ LOCATION 143
 POINTS 20
 END_NOUN
 
+ROOM 144
+Level 4
+EXIT 46
+END_ROOM
+
+ROOM_DESCR 144
+Due to the room limit of the game engine, dungeons cannot be recreated.
+END_ROOM_DESCR
+
+NOUN 216
+Ladder
+Step
+There is a large step ladder sitting here.
+SIZE 20
+WEIGHT 15
+LOCATION 144
+POINTS 20
+END_NOUN
+
 CREATURE 300
 Man
 Old
@@ -1382,10 +1498,35 @@ WEIGHT 2
 DRINKABLE
 END_NOUN
 
+NOUN 206
+Sword
+White
+The fabled White Sword of Legend
+SIZE 3
+WEIGHT 4
+END_NOUN
+
+NOUN 207
+Sword
+Magical
+The Magical Sword
+SIZE 4
+WEIGHT 3
+END_NOUN
+
 NOUN 213
 Bracelet
 Power
 A Bracelet allowing the wearer to push huge stones.
+SIZE 1
+WEIGHT 1
+WEARABLE
+END_NOUN
+
+NOUN 215
+Ring
+Blue
+The Blue Ring who's magic adds to the wearers defense.
 SIZE 1
 WEIGHT 1
 WEARABLE

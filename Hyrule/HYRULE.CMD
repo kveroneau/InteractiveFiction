@@ -58,6 +58,15 @@ END_COMMAND
 
 COMMAND TALK WITH MERCHANT
 Present 301
+VariableEquals 2 37
+IsNowhere 215
+PrintMessage 25
+GetIt 215
+DoneWithTurn
+END_COMMAND
+
+COMMAND TALK WITH MERCHANT
+Present 301
 PrintMessage 6
 DoneWithTurn
 END_COMMAND
@@ -217,13 +226,19 @@ PrintMessage 19
 END_COMMAND
 { End code to handle narrow forest paths }
 
-{ Code to move armos to find bracelet }
+{ Code to move armos }
 COMMAND PUSH SECRET ARMOS
 AtLocation 36
 PrintMessage 23
 DestroyNOUN
 GetIt 213
 DoneWithTurn
+END_COMMAND
+
+COMMAND PUSH SECRET ARMOS
+AtLocation 37
+PrintMessage 24
+GoToRoom 131
 END_COMMAND
 { End Armos code }
 

@@ -116,3 +116,18 @@ attacking you!  With a quick slice of your sword, you destroy it.
 After destroying it, it leaves behind what appears to be a bracelet of
 some kind.  Curious, you pick it up and take it with you.
 END_MESSAGE
+
+MESSAGE 24
+As you begin to push the Armos out of the way, it spins to life and begins
+attacking you!  With a quick slice of your sword, you destroy it.
+
+After destroying it, a set of stairs is revealed to have been underneath it.
+Curious, you go descend down the stairs...
+END_MESSAGE
+
+MESSAGE 25
+Since this game engine does not support a currency, I'll just give you the
+blue ring!
+
+You obtained the Blue Ring!
+END_MESSAGE
