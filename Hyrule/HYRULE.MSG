@@ -73,3 +73,46 @@ END_MESSAGE
 MESSAGE 15
 The old woman speaks, "Go North, West, South, West in the Lost Woods"
 END_MESSAGE
+
+MESSAGE 16
+The old man says, "Master using it, and you can have this!"
+END_MESSAGE
+
+MESSAGE 17
+
+The old man then hands you the White Sword!
+END_MESSAGE
+
+MESSAGE 18
+
+The old man then hands you the Magical Sword!
+END_MESSAGE
+
+MESSAGE 19
+You walk south down the narrow forest path.  The path continue west into
+a clearing that you now find yourself in.
+END_MESSAGE
+
+MESSAGE 20
+You put both of your hands on the boulder, it begins to move, if almost by
+magic.  A set of stairs forms in the ground as if out of nowhere.
+
+You descend down the stairs into the cavern below...
+END_MESSAGE
+
+MESSAGE 21
+You put both of your hands on the boulder and begin to push with all your
+might...  The boulder just does not want to budge.
+END_MESSAGE
+
+MESSAGE 22
+Perhaps you should try wearing that bracelet you found and give it another try.
+END_MESSAGE
+
+MESSAGE 23
+As you begin to push the Armos out of the way, it spins to life and begins
+attacking you!  With a quick slice of your sword, you destroy it.
+
+After destroying it, it leaves behind what appears to be a bracelet of
+some kind.  Curious, you pick it up and take it with you.
+END_MESSAGE

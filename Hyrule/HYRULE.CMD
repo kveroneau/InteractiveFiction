@@ -5,7 +5,7 @@ END_COMMAND
 
 COMMAND EXIT
 AtLocationGT 129
-AtLocationLT 133
+AtLocationLT 134
 GoToVariableRoom 2
 DoneWithTurn
 END_COMMAND
@@ -25,6 +25,28 @@ VariableEquals 2 114
 IsNowhere 202
 PrintMessage 12
 GetIt 202
+DoneWithTurn
+END_COMMAND
+
+COMMAND TALK WITH OLD MAN
+Present 300
+VariableEquals 2 82
+IsNowhere 206
+PrintMessage 16
+IsCarrying 201
+PrintMessage 17
+GetIt 206
+DoneWithTurn
+END_COMMAND
+
+COMMAND TALK WITH OLD MAN
+Present 300
+VariableEquals 2 12
+IsNowhere 207
+PrintMessage 16
+IsCarrying 206
+PrintMessage 17
+GetIt 207
 DoneWithTurn
 END_COMMAND
 
@@ -187,3 +209,84 @@ GoToRoom 124
 DoneWithTurn
 END_COMMAND
 { End code to handle raft usage }
+
+{ Code to handle narrow forest paths }
+COMMAND SOUTH
+AtLocation 24
+PrintMessage 19
+END_COMMAND
+{ End code to handle narrow forest paths }
+
+{ Code to move armos to find bracelet }
+COMMAND PUSH SECRET ARMOS
+AtLocation 36
+PrintMessage 23
+DestroyNOUN
+GetIt 213
+DoneWithTurn
+END_COMMAND
+{ End Armos code }
+
+{ Code to handle the infamous "Warp Zone" }
+COMMAND ANY
+AtLocation 28
+SetVariableTo 3 81
+SetVariableTo 4 78
+SetVariableTo 5 107
+END_COMMAND
+
+COMMAND ANY
+AtLocation 81
+SetVariableTo 3 28
+SetVariableTo 4 78
+SetVariableTo 5 107
+END_COMMAND
+
+COMMAND ANY
+AtLocation 78
+SetVariableTo 3 81
+SetVariableTo 4 28
+SetVariableTo 5 107
+END_COMMAND
+
+COMMAND ANY
+AtLocation 107
+SetVariableTo 3 81
+SetVariableTo 4 78
+SetVariableTo 5 28
+END_COMMAND
+
+COMMAND PUSH SECRET BOULDER
+NOUNInRoom
+IsWearing 213
+PrintMessage 20
+GoToRoom 133
+DoneWithTurn
+END_COMMAND
+
+COMMAND PUSH SECRET BOULDER
+NOUNInRoom
+PrintMessage 21
+IsCarrying 213
+PrintMessage 22
+DoneWithTurn
+END_COMMAND
+
+COMMAND NORTH
+AtLocation 133
+GoToVariableRoom 3
+DoneWithTurn
+END_COMMAND
+
+COMMAND WEST
+AtLocation 133
+GoToVariableRoom 4
+DoneWithTurn
+END_COMMAND
+
+COMMAND EAST
+AtLocation 133
+GoToVariableRoom 5
+DoneWithTurn
+END_COMMAND
+{ End of Warp Zone Code }

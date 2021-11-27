@@ -128,17 +128,59 @@ EAST 18
 SOUTH 11
 END_ROOM
 
+ROOM_DESCR 10
+You stand atop death mountain's peak looking down at the land of Hyrule.  There
+is a narrow path into the mountains both to the east and west from where you
+stand.  Just to the south is a narrow set of stairs leading to a landing of
+sorts.
+END_ROOM_DESCR
+
 ROOM 11
 West Death Mountain Peak
 NORTH 10
 WEST 3
 END_ROOM
 
+ROOM_DESCR 11
+You are in a large clearing on top of the mountain peak, just below the cliffs
+below is a massive graveyard.  The clearing continues westward, and there is
+a narrow set of stairs going north into the mountain peaks.
+END_ROOM_DESCR
+
 ROOM 12
 Hyrule Graveyard
 WEST 4
 SOUTH 13
+SPECIAL 130
+KEY 205
 END_ROOM
+
+ROOM_DESCR 12
+You upon a graveyard with grave stones lining the grounds as far south as you
+can see, and some more grave stones towards the west before the cliffs.
+END_ROOM_DESCR
+
+SPECIAL 130
+You push the grave stone to reveal a staircase going underground.
+
+You decent down the stairs into the hidden cavern beneath...
+END_SPECIAL
+
+NOUN 205
+Grave
+Stone
+A stone grave that appears like it was recently moved.
+SIZE 60
+WEIGHT 60
+UNMOVABLE
+LOCATION 12
+READABLE
+PUSHABLE
+END_NOUN
+
+TEXT 205
+The grave stone appears to be unmarked.
+END_TEXT
 
 ROOM 13
 Hyrule Graveyard
@@ -148,11 +190,24 @@ EAST 21
 WEST 5
 END_ROOM
 
+ROOM_DESCR 13
+You stand at the edge of a vast graveyard, you can see grave stones lining
+the ground in almost every direction.  There is a clearing in the mountains
+towards the east.
+END_ROOM_DESCR
+
 ROOM 14
 Hyrule Graveyard
 NORTH 13
 WEST 6
 END_ROOM
+
+ROOM_DESCR 14
+It feels like this graveyard could go on forever, you see graves towards both
+the north and to the west, with mountain cliffs towards the east and south.
+
+Below the mountain cliffside is a vast forest of dead trees below.
+END_ROOM_DESCR
 
 ROOM 15
 West Hyrule Woods
@@ -160,10 +215,20 @@ EAST 23
 SOUTH 16
 END_ROOM
 
+ROOM_DESCR 15
+You are in what appears to be a large clearing in the dead forest, with paths
+leading out into the forest towards both the east and south.  In the clearing
+there is two rows of trees, almost like someone planted them in a perfect line.
+END_ROOM_DESCR
+
 ROOM 16
 The Lost Woods
 EAST 24
 END_ROOM
+
+ROOM_DESCR 16
+You are in a deep part of the forest, with paths going in every direction.
+END_ROOM_DESCR
 
 ROOM 17
 Hyrule Wasteland
@@ -172,6 +237,14 @@ EAST 25
 WEST 9
 END_ROOM
 
+ROOM_DESCR 17
+You stand in a clearing with cliffs towards the north and south of you, the
+clearing continues towards the west where some dead trees lay to rest.
+
+There are two paths back into the forest, one towards the north, and one
+towards the east.
+END_ROOM_DESCR
+
 ROOM 18
 West Death Mountain Peak
 WEST 10
@@ -179,16 +252,39 @@ EAST 26
 SOUTH 19
 END_ROOM
 
+ROOM_DESCR 18
+You stand on a mountain trail in the peaks of death mountain.  There is a
+narrow path towards the west, and a bit of a small clearing to the east.
+
+There is also a narrow set of stairs here going south down the mountain.
+END_ROOM_DESCR
+
 ROOM 19
 West Death Mountain Peak
 NORTH 18
 EAST 26
 END_ROOM
 
+ROOM_DESCR 19
+You stand in a landing near the peak of the mountain, several dead trees are
+standing here almost ready to come falling down at the slightest push.
+
+There is a narrow set of stairs leading north into the mountain peak, and
+the landing continues towards the east.
+END_ROOM_DESCR
+
 ROOM 20
 Outside Level 6
 SOUTH 21
 END_ROOM
+
+ROOM_DESCR 20
+You stand just outside of a large template in the shape of a monster's head
+with the mouth being the door inside.  There are several Armos statues
+lining the temple entrance.
+
+Towards the south is a narrow set of stairs leading down the mountain.
+END_ROOM_DESCR
 
 ROOM 21
 West Death Mountain
@@ -197,10 +293,23 @@ WEST 13
 EAST 29
 END_ROOM
 
+ROOM_DESCR 21
+You stand in a clearing below a set of narrow stairs to what appears to be a
+temple of sorts towards the north.  To the west appears to what looks like a
+massive graveyard.  There is also a narrow path to the east going into the
+cliffs.
+END_ROOM_DESCR
+
 ROOM 22
 Empty Fairy Spring
 SOUTH 23
 END_ROOM
+
+ROOM_DESCR 22
+Right in front of you is what appears to be a pond with some dead shrubs.
+
+Towards the south is back into the dead forest.
+END_ROOM_DESCR
 
 ROOM 23
 West Hyrule Woods
@@ -211,25 +320,49 @@ WEST 15
 EAST 31
 END_ROOM
 
+ROOM_DESCR 23
+You stand in a vast forest, with paths sprawling in almost every direction.
+
+Towards the north appears to be a pond, a clearing to the west, and another
+clearing to the east.  The clearing continues to the southeast, with a path
+going south.
+END_ROOM_DESCR
+
 ROOM 24
 West Hyrule Woods
 NORTH 23
-SOUTH 25
+SOUTH 33
 WEST 16
 END_ROOM
 
+ROOM_DESCR 24
+You stand at a fork in the forest path, with some deep think woods towards
+the west, a narrow path to the south, and more forest to the north.
+
+Does this forest ever end?
+END_ROOM_DESCR
+
 ROOM 25
 West Hyrule Woods
-NORTH 24
 EAST 33
 WEST 17
 END_ROOM
+
+ROOM_DESCR 25
+You stand in a narrow forest path going east and west.
+END_ROOM_DESCR
 
 ROOM 26
 West Death Mountain Peak
 WEST 18
 SOUTH 27
 END_ROOM
+
+ROOM_DESCR 26
+You stand at the east side of a clearing in the mountain peaks, the clearing
+continues off to the west, and there is a narrow set of stairs going south
+into the mountains here as well.
+END_ROOM_DESCR
 
 ROOM 27
 West Death Mountain Peak
@@ -238,11 +371,33 @@ WEST 19
 EAST 35
 END_ROOM
 
+ROOM_DESCR 27
+You are standing in a large clearing on the mountain top spanning both east and
+west.  There is also a narrow set of stairs going north further into the
+mountain peak here as well.
+END_ROOM_DESCR
+
 ROOM 28
 West Death Mountain
 SOUTH 29
 EAST 36
 END_ROOM
+
+ROOM_DESCR 28
+You stand in a clearing on the mountains.  There is a set of narrow stairs
+going south.  There are some large boulders here, one of which appears like
+it could be moved if you only had the strength to move it.
+END_ROOM_DESCR
+
+NOUN 208
+Boulder
+Secret
+There is a rather large boulder sitting here.
+SIZE 60
+WEIGHT 60
+UNMOVABLE
+LOCATION 28
+END_NOUN
 
 ROOM 29
 West Death Mountain
@@ -250,10 +405,25 @@ NORTH 28
 WEST 21
 END_ROOM
 
+ROOM_DESCR 29
+You stand in what appears to be some sort of Ancient ruins with several Armos
+lined up in several lines like they are about to go to battle.
+
+There is a clearing to the west, and a set of stairs leading north into the
+mountains.
+END_ROOM_DESCR
+
 ROOM 30
 Fairy Spring
 SOUTH 31
 END_ROOM
+
+ROOM_DESCR 30
+You are at the most beautiful spring you have ever seen.  There is a fairy
+flying at it's center.
+
+The only path out is towards the south.
+END_ROOM_DESCR
 
 ROOM 31
 West Hyrule Woods
@@ -263,6 +433,13 @@ EAST 39
 WEST 23
 END_ROOM
 
+ROOM_DESCR 31
+You stand at a clearing in what is a deep forest towards the west of you.
+
+The clearing continues towards the south, and a vast lake can be seen to
+the east.
+END_ROOM_DESCR
+
 ROOM 32
 West Hyrule Woods
 NORTH 31
@@ -271,12 +448,27 @@ EAST 40
 WEST 24
 END_ROOM
 
+ROOM_DESCR 32
+You stand at a clearing in what is a deep forest towards the west of you.
+
+Towards the east are some green cliffs and a bridge crossing a river just
+beyond that.
+END_ROOM_DESCR
+
 ROOM 33
 West Hyrule Woods
 NORTH 32
+NORTHWEST 24
 EAST 41
 WEST 25
 END_ROOM
+
+ROOM_DESCR 33
+You stand at a clearing in what is a deep forest towards the west of you.
+
+Towards the east there is a valley with green cliffs and what appears to be
+a temple of sorts at it's center.
+END_ROOM_DESCR
 
 ROOM 34
 West Death Mountain Peak
@@ -296,6 +488,15 @@ NORTH 35
 EAST 44
 WEST 28
 END_ROOM
+
+NOUN 212
+Armos
+Secret
+SIZE 40
+WEIGHT 60
+UNMOVABLE
+LOCATION 36
+END_NOUN
 
 ROOM 37
 West Lake Hylia
@@ -336,7 +537,7 @@ END_ROOM_DESCR
 ROOM 41
 Outside Level 3
 WEST 33
-ENTER 133
+ENTER 143
 END_ROOM
 
 ROOM_DESCR 41
@@ -684,6 +885,16 @@ SOUTH 79
 EAST 86
 END_ROOM
 
+NOUN 209
+Boulder
+Secret
+There is a rather large boulder sitting here.
+SIZE 60
+WEIGHT 60
+UNMOVABLE
+LOCATION 78
+END_NOUN
+
 ROOM 79
 Hyrule Field Springs
 NORTH 78
@@ -704,6 +915,16 @@ South Hyrule Pass
 EAST 89
 WEST 73
 END_ROOM
+
+NOUN 210
+Boulder
+Secret
+There is a rather large boulder sitting here.
+SIZE 60
+WEIGHT 60
+UNMOVABLE
+LOCATION 81
+END_NOUN
 
 ROOM 82
 Zora's Spring
@@ -874,6 +1095,16 @@ SOUTH 108
 EAST 115
 WEST 99
 END_ROOM
+
+NOUN 211
+Boulder
+Secret
+There is a rather large boulder sitting here.
+SIZE 60
+WEIGHT 60
+UNMOVABLE
+LOCATION 107
+END_NOUN
 
 ROOM 108
 East Death Mountain Range
@@ -1071,11 +1302,31 @@ center.
 END_ROOM_DESCR
 
 ROOM 133
+Secret Warp Zone
+END_ROOM
+
+ROOM_DESCR 133
+You are in a dark cave with two lit torches and an old man sitting in the
+center.
+
+The old man begins to speak, "Take any road you want."
+
+Before you are a set of three different paths, one path to the north, another
+to the west, and a final one towards the east.  Of course you can also just
+leave out the way you came in as well.
+END_ROOM_DESCR
+
+HELP 133
+I know in the original they were staircases, but it is more natural for a text
+adventure to use compass directions.  So choose your path!
+END_HELP
+
+ROOM 143
 Level 3
 EXIT 41
 END_ROOM
 
-ROOM_DESCR 133
+ROOM_DESCR 143
 Due to the room limit of the game engine, dungeons cannot be recreated.
 END_ROOM_DESCR
 
@@ -1085,7 +1336,7 @@ Wooden
 There is a large wooden raft sitting here.
 SIZE 20
 WEIGHT 15
-LOCATION 133
+LOCATION 143
 POINTS 20
 END_NOUN
 
@@ -1129,4 +1380,13 @@ A red potion, doesn't look very appetizing.
 SIZE 4
 WEIGHT 2
 DRINKABLE
+END_NOUN
+
+NOUN 213
+Bracelet
+Power
+A Bracelet allowing the wearer to push huge stones.
+SIZE 1
+WEIGHT 1
+WEARABLE
 END_NOUN
