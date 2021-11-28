@@ -153,3 +153,27 @@ MESSAGE 29
 You place the step ladder across the river and carefully cross the river over
 top of the step ladder.  You made it!
 END_MESSAGE
+
+MESSAGE 30
+You take out the red candle and burn a nearby bush...
+
+The bush begins to burn away, eventually revealing a set of stairs beneath the
+forest.  You descend down the stairs...
+END_MESSAGE
+
+MESSAGE 31
+You set the big bomb down in front of the large rock formation and set the
+fuse, then quickly take cover...
+
+BOOOOOM!!!!
+
+A large hole is now in the rock formation, large enough for a Hylian to walk
+through.
+END_MESSAGE
+
+MESSAGE 32
+As you walk north into the Triforce of Wisdom checkpoint, all the pieces of
+the Triforce of Wisdom you were carrying fuse together to form a complete
+Triforce of Wisdom.  You hold up the entire Triforce above your head, and
+the magical barrier that once existed disappears, allowing you to go forward.
+END_MESSAGE

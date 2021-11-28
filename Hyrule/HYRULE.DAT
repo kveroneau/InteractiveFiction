@@ -5,9 +5,12 @@ END_INTRO
 
 VERB
 Dummy_Verb1 RIDE
+Dummy_Verb2 BURN
+Dummy_Verb3 BLOW
 END_VERB
 
 STARTING_ROOM 65
+MAXIMUM_SCORE 575
 
 NOUN 200
 Shield
@@ -276,6 +279,7 @@ END_ROOM_DESCR
 ROOM 20
 Outside Level 6
 SOUTH 21
+ENTER 146
 END_ROOM
 
 ROOM_DESCR 20
@@ -303,6 +307,8 @@ END_ROOM_DESCR
 ROOM 22
 Empty Fairy Spring
 SOUTH 23
+SPECIAL 136
+KEY 218
 END_ROOM
 
 ROOM_DESCR 22
@@ -310,6 +316,13 @@ Right in front of you is what appears to be a pond with some dead shrubs.
 
 Towards the south is back into the dead forest.
 END_ROOM_DESCR
+
+SPECIAL 136
+You take out the Whistle and being to play it...
+
+After a few notes, the spring in front of you begins to dry up to reveal a
+hidden staircase.
+END_SPECIAL
 
 ROOM 23
 West Hyrule Woods
@@ -878,6 +891,7 @@ END_ROOM_DESCR
 ROOM 61
 Outside Level 1
 EAST 69
+ENTER 141
 END_ROOM
 
 ROOM_DESCR 61
@@ -1288,6 +1302,7 @@ END_ROOM_DESCR
 ROOM 90
 Outside Level 5
 SOUTH 91
+ENTER 145
 END_ROOM
 
 ROOM_DESCR 90
@@ -1432,6 +1447,7 @@ END_ROOM_DESCR
 ROOM 101
 Outside Level 2
 SOUTH 102
+ENTER 142
 END_ROOM
 
 ROOM_DESCR 101
@@ -1595,6 +1611,16 @@ clearing towards the east, where you can make out what looks like a vast sea
 just beyond the clearing.
 END_ROOM_DESCR
 
+NOUN 231
+Bush
+Large
+There is a large bush in the path here.
+SIZE 60
+WEIGHT 30
+UNMOVABLE
+LOCATION 112
+END_NOUN
+
 ROOM 113
 Hyrule Beach
 EAST 121
@@ -1637,7 +1663,7 @@ ROOM 115
 East Death Mountain Range
 NORTH 114
 EAST 123
-WEST 107
+WEST 135
 END_ROOM
 
 ROOM_DESCR 115
@@ -1897,6 +1923,54 @@ a narrow pathway hugging the mountain towards both the east and the south.
 There is also a narrow set of stairs here ascending up into the mountain.
 END_ROOM_DESCR
 
+ROOM 136
+Outside Level 7
+SOUTH 23
+ENTER 147
+END_ROOM
+
+ROOM_DESCR 136
+You stand at a dried up spring with a set of stairs at it's center.
+END_ROOM_DESCR
+
+ROOM 141
+Level 1
+EXIT 61
+END_ROOM
+
+ROOM_DESCR 141
+Due to the room limit of the game engine, dungeons cannot be recreated.
+END_ROOM_DESCR
+
+NOUN 221
+Triforce
+First
+The first Triforce piece.
+SIZE 2
+WEIGHT 2
+LOCATION 141
+POINTS 50
+END_NOUN
+
+ROOM 142
+Level 2
+EXIT 101
+END_ROOM
+
+ROOM_DESCR 142
+Due to the room limit of the game engine, dungeons cannot be recreated.
+END_ROOM_DESCR
+
+NOUN 222
+Triforce
+Second
+The second Triforce piece.
+SIZE 2
+WEIGHT 2
+LOCATION 142
+POINTS 50
+END_NOUN
+
 ROOM 143
 Level 3
 EXIT 41
@@ -1905,6 +1979,16 @@ END_ROOM
 ROOM_DESCR 143
 Due to the room limit of the game engine, dungeons cannot be recreated.
 END_ROOM_DESCR
+
+NOUN 223
+Triforce
+Third
+The third Triforce piece.
+SIZE 2
+WEIGHT 2
+LOCATION 143
+POINTS 50
+END_NOUN
 
 NOUN 204
 Raft
@@ -1925,6 +2009,16 @@ ROOM_DESCR 144
 Due to the room limit of the game engine, dungeons cannot be recreated.
 END_ROOM_DESCR
 
+NOUN 224
+Triforce
+Forth
+The forth Triforce piece.
+SIZE 2
+WEIGHT 2
+LOCATION 144
+POINTS 50
+END_NOUN
+
 NOUN 216
 Ladder
 Step
@@ -1934,6 +2028,163 @@ WEIGHT 15
 LOCATION 144
 POINTS 20
 END_NOUN
+
+ROOM 145
+Level 5
+EXIT 90
+END_ROOM
+
+ROOM_DESCR 145
+Due to the room limit of the game engine, dungeons cannot be recreated.
+END_ROOM_DESCR
+
+NOUN 225
+Triforce
+Fifth
+The fifth Triforce piece.
+SIZE 2
+WEIGHT 2
+LOCATION 145
+POINTS 50
+END_NOUN
+
+NOUN 218
+Whistle
+Warp
+The Warp Whistle.
+SIZE 1
+WEIGHT 1
+LOCATION 145
+PLAYABLE
+POINTS 20
+END_NOUN
+
+PLAY_DESCR 218
+You take the Whistle out and begin to play it.
+
+Nothing seems to happen.
+END_PLAY_DESCR
+
+ROOM 146
+Level 6
+EXIT 20
+END_ROOM
+
+ROOM_DESCR 146
+Due to the room limit of the game engine, dungeons cannot be recreated.
+END_ROOM_DESCR
+
+NOUN 226
+Triforce
+Sixth
+The sixth Triforce piece.
+SIZE 2
+WEIGHT 2
+LOCATION 146
+POINTS 50
+END_NOUN
+
+ROOM 147
+Level 7
+EXIT 22
+END_ROOM
+
+ROOM_DESCR 147
+Due to the room limit of the game engine, dungeons cannot be recreated.
+END_ROOM_DESCR
+
+NOUN 219
+Candle
+Red
+The Red Candle
+SIZE 2
+WEIGHT 1
+LOCATION 147
+IS_LIGHT
+POINTS 15
+END_NOUN
+
+NOUN 227
+Triforce
+Seventh
+The seventh Triforce piece.
+SIZE 2
+WEIGHT 2
+LOCATION 147
+POINTS 50
+END_NOUN
+
+ROOM 148
+Level 8
+EXIT 112
+LIGHT 1
+END_ROOM
+
+ROOM_DESCR 148
+Due to the room limit of the game engine, dungeons cannot be recreated.
+END_ROOM_DESCR
+
+NOUN 228
+Triforce
+Eighth
+The eighth Triforce piece.
+SIZE 2
+WEIGHT 2
+LOCATION 148
+POINTS 50
+END_NOUN
+
+NOUN 220
+Key
+Magical
+A magical key
+SIZE 1
+WEIGHT 1
+LOCATION 148
+TURNABLE
+POINTS 20
+END_NOUN
+
+TURN_DESCR 220
+Turn the key in what keyhole?
+END_TURN_DESCR
+
+ROOM 149
+Death Mountain
+NORTH 150
+LIGHT 1
+END_ROOM
+
+ROOM_DESCR 149
+You stand inside what appears to be a dungeon entrance way of sorts, there
+are numerous monstrous lining the hall to what is a large door at the end to
+the north.
+END_ROOM_DESCR
+
+ROOM 150
+Triforce of Wisdom checkpoint
+SOUTH 149
+END_ROOM
+
+ROOM_DESCR 150
+You stand in a room which has a very strange feel to it, unlike anything you
+have felt throughout your adventure before this point.
+
+A voice comes thundering down from nowhere,
+   "Those without wisdom shall not pass"
+END_ROOM_DESCR
+
+ROOM 151
+Ganon's Entry Hall
+SOUTH 149
+LIGHT 1
+END_ROOM
+
+ROOM_DESCR 151
+You stand in a very large entry way, there are several grand pillars lining the
+hall.  On the walls there are paintings of what appears to be Ganon in his
+previous human form holding the Triforce of Power proudly above his head.
+END_ROOM_DESCR
 
 CREATURE 300
 Man
@@ -2021,4 +2272,22 @@ Large
 A large bomb.
 SIZE 5
 WEIGHT 4
+END_NOUN
+
+NOUN 229
+Hole
+Large
+There is a large hole in the rock formation here.
+SIZE 80
+WEIGHT 1
+UNMOVABLE
+END_NOUN
+
+NOUN 230
+Triforce
+Wisdom
+The Trifoce of Wisdom
+SIZE 10
+WEIGHT 10
+POINTS 400
 END_NOUN

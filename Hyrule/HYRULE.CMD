@@ -227,7 +227,6 @@ COMMAND EAST
 AtLocation 51
  OR
 AtLocation 52
- OR
 TurnFlagOFF 9
 END_COMMAND
 
@@ -284,17 +283,19 @@ END_COMMAND
 
 COMMAND EAST
 AtLocation 59
+FlagOFF 9
  OR
 AtLocation 60
-FlagON 9
+FlagOFF 9
 PrintMessage 29
 END_COMMAND
 
 COMMAND WEST
 AtLocation 59
+FlagON 9
  OR
 AtLocation 60
-FlagOFF 9
+FlagON 9
 PrintMessage 29
 END_COMMAND
 { End code to handle river area }
@@ -337,6 +338,7 @@ COMMAND PUSH SECRET ARMOS
 AtLocation 37
 PrintMessage 24
 GoToRoom 131
+DoneWithTurn
 END_COMMAND
 { End Armos code }
 
@@ -403,3 +405,49 @@ GoToVariableRoom 5
 DoneWithTurn
 END_COMMAND
 { End of Warp Zone Code }
+
+{ Level 8 entrance code }
+COMMAND BURN BUSH
+InRoom 231
+IsCarrying 219
+PrintMessage 30
+GoToRoom 148
+DoneWithTurn
+END_COMMAND
+{ End code for Level 8 }
+
+{ Spectacle Rock entrance }
+COMMAND BLOW BOMB
+AtLocation 42
+IsCarrying 217
+DestroyNOUN
+ChangePassageway 11 149
+PutInCurrentRoom 229
+PrintMessage 31
+DoneWithTurn
+END_COMMAND
+
+COMMAND NORTH
+AtLocation 149
+IsCarrying 230
+GoToRoom 151
+DoneWithTurn
+END_COMMAND
+
+COMMAND NORTH
+AtLocation 149
+IsCarrying 221
+IsCarrying 222
+IsCarrying 223
+IsCarrying 224
+IsCarrying 225
+IsCarrying 226
+IsCarrying 227
+IsCarrying 228
+PrintMessage 32
+SendTreasuresToRoom 0 49
+GetIt 230
+GoToRoom 151
+DoneWithTurn
+END_COMMAND
+{ End Spectacle Rock entrance }
